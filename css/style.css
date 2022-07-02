@@ -1,0 +1,543 @@
+@import url("../assets/src/Helvetica-Neue-Font/Helvetica");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap");
+html {
+  font-size: 62.5%; }
+  @media screen and (max-width: 687px) {
+    html {
+      font-size: 20%; } }
+  @media screen and (min-width: 688px) and (max-width: 1110px) {
+    html {
+      font-size: 45%; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    html {
+      font-size: 60%; } }
+
+* {
+  font-family: 'Helvetica', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+main {
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+main div div img:hover {
+  transform: scale(1.1);
+  transition: transform 2s; }
+
+.fondo-titulos {
+  background-color: #577774; }
+
+.fondo-parrafos {
+  background: linear-gradient(to right top, #5C7F7C, #577774); }
+
+body {
+  background-image: url(../assets/img/fondo2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+nav {
+  background: linear-gradient(to right top, #5C7F7C, #577774);
+  opacity: .9;
+  width: 100%;
+  border-bottom: #262626 .1rem solid; }
+  nav h1 {
+    color: #f5f3f3;
+    font-family: "Dancing Script", sans-serif;
+    font-size: 7rem;
+    font-weight: 600; }
+    nav h1:hover {
+      color: #343230;
+      transform: translateX(0.5px); }
+    @media screen and (max-width: 361px) {
+      nav h1 {
+        font-size: 4rem; } }
+    @media screen and (max-width: 450px) and (min-width: 362px) {
+      nav h1 {
+        font-size: 5rem; } }
+    @media screen and (max-width: 687px) and (min-width: 451px) {
+      nav h1 {
+        font-size: 7rem; } }
+    @media screen and (min-width: 688px) and (max-width: 900px) {
+      nav h1 {
+        font-size: 4rem; } }
+    @media screen and (min-width: 901px) and (max-width: 1350px) {
+      nav h1 {
+        font-size: 7rem; } }
+  nav p {
+    color: #f5f3f3;
+    font-family: "Roboto, sans-serif";
+    font-size: 2rem;
+    font-weight: 300; }
+    nav p:hover {
+      color: #343230;
+      transform: translateX(0.5px); }
+    @media screen and (min-width: 280px) and (max-width: 361px) {
+      nav p {
+        font-size: 2rem; } }
+    @media screen and (max-width: 687px) and (min-width: 362px) {
+      nav p {
+        font-size: 3rem; } }
+    @media screen and (min-width: 688px) and (max-width: 900px) {
+      nav p {
+        font-size: 1.6rem; } }
+    @media screen and (min-width: 901px) and (max-width: 1110px) {
+      nav p {
+        font-size: 1.8rem; } }
+    @media screen and (min-width: 1111px) and (max-width: 1350px) {
+      nav p {
+        font-size: 1.5rem; } }
+  nav ul {
+    list-style-type: none; }
+    nav ul li a p {
+      color: #f5f3f3;
+      font-weight: 400;
+      font-size: 2.5rem; }
+      @media screen and (min-width: 768px) and (max-width: 900px) {
+        nav ul li a p {
+          font-size: 1.5rem; } }
+      @media screen and (min-width: 901px) and (max-width: 1110px) {
+        nav ul li a p {
+          font-size: 2.5rem; } }
+      @media screen and (min-width: 1111px) and (max-width: 1350px) {
+        nav ul li a p {
+          font-size: 2rem; } }
+      nav ul li a p:hover {
+        color: #343230;
+        transform: translateX(0.5px); }
+  nav button {
+    background-color: transparent;
+    border-color: transparent; }
+    nav button img {
+      height: 30px;
+      width: 30px;
+      background-color: transparent;
+      cursor: pointer; }
+      nav button img:hover {
+        transform: translateX(0.5px); }
+      @media screen and (min-width: 688px) and (max-width: 1110px) {
+        nav button img {
+          height: 18px;
+          width: 18px; } }
+      @media screen and (min-width: 1111px) and (max-width: 1350px) {
+        nav button img {
+          height: 21px;
+          width: 21px; } }
+
+.logo {
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+  margin: 1rem;
+  border: #262626 0.1rem solid; }
+  .logo:hover {
+    transform: rotate(180deg);
+    transition: transform 2s; }
+  @media screen and (max-width: 361px) {
+    .logo {
+      height: 35px;
+      width: 35px; } }
+  @media screen and (max-width: 450px) and (min-width: 362px) {
+    .logo {
+      height: 37px;
+      width: 37px; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .logo {
+      height: 50px;
+      width: 50px; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .logo {
+      height: 65px;
+      width: 65px; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .logo {
+      height: 90px;
+      width: 90px; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    .logo {
+      height: 140px;
+      width: 140px; } }
+
+.botones {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  opacity: .8; }
+  .botones:hover {
+    transform: translateX(0.5px); }
+  @media screen and (max-width: 361px) {
+    .botones {
+      height: 13px;
+      width: 13px;
+      margin-left: 1rem; } }
+  @media screen and (max-width: 450px) and (min-width: 362px) {
+    .botones {
+      height: 12px;
+      width: 12px;
+      margin-left: 1rem; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .botones {
+      height: 15px;
+      width: 15px;
+      margin-left: 1rem; } }
+  @media screen and (min-width: 688px) and (max-width: 1110px) {
+    .botones {
+      height: 20px;
+      width: 20px; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    .botones {
+      height: 25px;
+      width: 25px; } }
+
+.botones-margin {
+  margin: .3rem; }
+
+.buscador {
+  margin: .3rem; }
+
+.barra-buscadora {
+  height: 30px;
+  width: 150px; }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .barra-buscadora {
+      height: 18px;
+      width: 65px; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .barra-buscadora {
+      height: 20px;
+      width: 85px; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    .barra-buscadora {
+      height: 25px;
+      width: 100px; } }
+
+main section {
+  margin-top: 10rem; }
+
+main div a h3 {
+  font-size: 3rem;
+  font-weight: 400; }
+  main div a h3:hover {
+    color: #343230;
+    transform: translateX(0.5px); }
+  @media screen and (min-width: 280px) and (max-width: 361px) {
+    main div a h3 {
+      font-size: 4rem; } }
+  @media screen and (max-width: 687px) and (min-width: 362px) {
+    main div a h3 {
+      font-size: 5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    main div a h3 {
+      font-size: 3rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    main div a h3 {
+      font-size: 3.5rem; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    main div a h3 {
+      font-size: 3rem; } }
+
+main div article {
+  background-color: #fff3fd; }
+  main div article a div {
+    padding: 5px; }
+
+footer h4 {
+  font-size: 2.5rem;
+  font-weight: 500; }
+  @media screen and (min-width: 280px) and (max-width: 361px) {
+    footer h4 {
+      font-size: 3rem; } }
+  @media screen and (max-width: 687px) and (min-width: 362px) {
+    footer h4 {
+      font-size: 4rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    footer h4 {
+      font-size: 2.2rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    footer h4 {
+      font-size: 2.5rem; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    footer h4 {
+      font-size: 2rem; } }
+
+footer h5 {
+  font-size: 2.5rem;
+  font-weight: 500; }
+  footer h5:hover {
+    transform: translateX(0.5px); }
+  @media screen and (min-width: 280px) and (max-width: 361px) {
+    footer h5 {
+      font-size: 3rem; } }
+  @media screen and (max-width: 687px) and (min-width: 362px) {
+    footer h5 {
+      font-size: 4rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    footer h5 {
+      font-size: 2.2rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    footer h5 {
+      font-size: 2.5rem; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    footer h5 {
+      font-size: 2rem; } }
+
+footer h6 {
+  font-size: 1.5rem;
+  font-weight: 500; }
+  @media screen and (min-width: 280px) and (max-width: 361px) {
+    footer h6 {
+      font-size: 2rem; } }
+  @media screen and (max-width: 687px) and (min-width: 362px) {
+    footer h6 {
+      font-size: 3rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    footer h6 {
+      font-size: 1.6rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    footer h6 {
+      font-size: 1.8rem; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    footer h6 {
+      font-size: 1.5rem; } }
+
+footer ul {
+  list-style-type: none; }
+
+.logos-redes {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%; }
+
+main div div div p {
+  color: #f5f3f3; }
+
+.parrafos {
+  font-size: 2.5rem; }
+  @media screen and (min-width: 280px) and (max-width: 361px) {
+    .parrafos {
+      font-size: 3.5rem; } }
+  @media screen and (max-width: 687px) and (min-width: 362px) {
+    .parrafos {
+      font-size: 4.5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .parrafos {
+      font-size: 2.5rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .parrafos {
+      font-size: 3rem; } }
+  @media screen and (min-width: 1111px) and (max-width: 1199px) {
+    .parrafos {
+      font-size: 2.5rem; } }
+  @media screen and (min-width: 1200px) and (max-width: 1350px) {
+    .parrafos {
+      font-size: 2rem; } }
+
+.precios {
+  font-size: 2rem; }
+  @media screen and (min-width: 280px) and (max-width: 361px) {
+    .precios {
+      font-size: 2rem; } }
+  @media screen and (max-width: 687px) and (min-width: 362px) {
+    .precios {
+      font-size: 3rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .precios {
+      font-size: 1.6rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .precios {
+      font-size: 1.8rem; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    .precios {
+      font-size: 1.5rem; } }
+
+main section form fieldset {
+  border-color: transparent; }
+  main section form fieldset input {
+    font-size: 2.5rem;
+    background: linear-gradient(to right top, #5C7F7C, #577774);
+    opacity: .9;
+    border: none;
+    border-bottom: 2px solid #262626; }
+    @media screen and (max-width: 1350px) {
+      main section form fieldset input {
+        font-size: 2rem; } }
+  main section form fieldset label {
+    font-size: 2rem;
+    font-weight: 400; }
+    @media screen and (max-width: 1110px) {
+      main section form fieldset label {
+        font-size: 3rem; } }
+    @media screen and (min-width: 1111px) and (max-width: 1350px) {
+      main section form fieldset label {
+        font-size: 2rem; } }
+  main section form fieldset select {
+    height: 4rem;
+    font-size: 2rem;
+    cursor: pointer;
+    background: linear-gradient(to right top, #5C7F7C, #577774);
+    opacity: .9;
+    border-bottom: 2px solid #262626; }
+    @media screen and (max-width: 361px) {
+      main section form fieldset select {
+        height: 4rem;
+        font-size: 2rem; } }
+    @media screen and (max-width: 1110px) and (min-width: 362px) {
+      main section form fieldset select {
+        height: 5rem;
+        font-size: 2rem; } }
+    @media screen and (min-width: 1111px) and (max-width: 1350px) {
+      main section form fieldset select {
+        height: 4rem;
+        font-size: 2rem; } }
+  main section form fieldset section input {
+    border: 0.1rem solid #262626; }
+    main section form fieldset section input:hover {
+      animation-name: animateDiv;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-duration: 5s;
+      animation-delay: 0s;
+      transform: translateX(0.5px); }
+  main section form fieldset section label input {
+    border: 0.1rem solid #262626; }
+    main section form fieldset section label input:hover {
+      animation-name: animateDiv;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-duration: 5s;
+      animation-delay: 0s;
+      transform: translateX(0.5px); }
+    main section form fieldset section label input label {
+      font-size: 2rem; }
+
+@keyframes animateDiv {
+  0% {
+    background: linear-gradient(to top #5C7F7C, #577774); }
+  25% {
+    background: linear-gradient(to right, #577774, #5C7F7C); }
+  50% {
+    background: linear-gradient(to bottom, #5C7F7C, #577774); }
+  75% {
+    background: linear-gradient(to left, #577774, #5C7F7C); }
+  100% {
+    background: linear-gradient(to top, #5C7F7C, #577774); } }
+
+.titulo-carrito {
+  font-size: 3rem;
+  font-weight: 500; }
+  @media screen and (min-width: 280px) and (max-width: 361px) {
+    .titulo-carrito {
+      font-size: 4rem; } }
+  @media screen and (max-width: 687px) and (min-width: 362px) {
+    .titulo-carrito {
+      font-size: 5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .titulo-carrito {
+      font-size: 3rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .titulo-carrito {
+      font-size: 3.5rem; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    .titulo-carrito {
+      font-size: 3rem; } }
+
+.titulo-mapa {
+  font-size: 3rem;
+  font-weight: 500; }
+  @media screen and (min-width: 280px) and (max-width: 361px) {
+    .titulo-mapa {
+      font-size: 3rem; } }
+  @media screen and (max-width: 687px) and (min-width: 362px) {
+    .titulo-mapa {
+      font-size: 4rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .titulo-mapa {
+      font-size: 2.2rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .titulo-mapa {
+      font-size: 2.5rem; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    .titulo-mapa {
+      font-size: 2rem; } }
+
+.ubicacion {
+  margin-top: 10rem; }
+
+.botones-enviar {
+  cursor: pointer; }
+
+.checkbox {
+  height: 1.5rem;
+  width: 1.5rem;
+  cursor: pointer; }
+
+.titulo-nosotros {
+  font-size: 3rem;
+  font-weight: 400; }
+  @media screen and (min-width: 280px) and (max-width: 361px) {
+    .titulo-nosotros {
+      font-size: 4rem; } }
+  @media screen and (max-width: 687px) and (min-width: 362px) {
+    .titulo-nosotros {
+      font-size: 5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .titulo-nosotros {
+      font-size: 3rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .titulo-nosotros {
+      font-size: 3.5rem; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    .titulo-nosotros {
+      font-size: 3rem; } }
+
+.texto-nosotros {
+  font-size: 2.5rem;
+  font-weight: 300; }
+  @media screen and (max-width: 450px) {
+    .texto-nosotros {
+      font-size: 3rem; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .texto-nosotros {
+      font-size: 3.5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .texto-nosotros {
+      font-size: 2.1rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .texto-nosotros {
+      font-size: 2.3rem; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    .texto-nosotros {
+      font-size: 2rem; } }
+
+main section table th {
+  font-size: 2rem;
+  font-weight: 300; }
+
+main section table td {
+  font-size: 1.7rem;
+  font-weight: 200; }
+
+.titulo-talles {
+  font-size: 3rem;
+  font-weight: 500; }
+  @media screen and (min-width: 280px) and (max-width: 361px) {
+    .titulo-talles {
+      font-size: 4rem; } }
+  @media screen and (max-width: 687px) and (min-width: 362px) {
+    .titulo-talles {
+      font-size: 5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .titulo-talles {
+      font-size: 3rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .titulo-talles {
+      font-size: 3.5rem; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    .titulo-talles {
+      font-size: 3rem; } }
+
+.titulos-tablas {
+  font-size: 3rem;
+  font-weight: 400; }

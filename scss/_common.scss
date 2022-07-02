@@ -1,0 +1,20 @@
+* {
+    font-family: 'Helvetica', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+main{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+main div div img:hover{
+    transform: scale(1.10);
+    transition: transform 2s;
+}
+.fondo-titulos{
+    background-color: #577774;
+}
+.fondo-parrafos{
+    background: linear-gradient(to right top, #5C7F7C, #577774);
+}

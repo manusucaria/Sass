@@ -1,0 +1,37 @@
+main{
+    section{
+        table{
+            th{
+                font-size: 2rem;
+                font-weight: 300;
+            }
+            td{
+                font-size: 1.7rem;
+                font-weight: 200;
+            }
+        }
+    }
+}
+.titulo-talles{
+    font-size: 3rem;
+    font-weight: 500;
+    @media screen and (min-width: 280px) and (max-width: 361px){
+        font-size: 4rem;
+    }
+    @media screen and (max-width: 687px) and (min-width: 362px){
+        font-size: 5rem;
+    }
+    @media screen and (min-width: 688px) and (max-width: 900px){
+        font-size: 3rem;
+    }
+    @media screen and (min-width: 901px) and (max-width: 1110px){
+        font-size: 3.5rem;
+    }
+    @media screen and (min-width: 1111px) and (max-width: 1350px){
+        font-size: 3rem;
+    }
+}
+.titulos-tablas{
+    font-size: 3rem;
+    font-weight: 400;
+}

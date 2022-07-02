@@ -1,0 +1,40 @@
+main{
+    section{
+        margin-top: 10rem;
+    }
+    div{
+        a{
+            h3{
+                font-size: 3rem;
+                font-weight: 400;
+                &:hover{
+                    color: #343230;
+                    transform: translateX(.5px)
+                }
+                @media screen and (min-width: 280px) and (max-width: 361px){
+                    font-size: 4rem;
+                }
+                @media screen and (max-width: 687px) and (min-width: 362px){
+                    font-size: 5rem;
+                }
+                @media screen and (min-width: 688px) and (max-width: 900px){
+                    font-size: 3rem;
+                }
+                @media screen and (min-width: 901px) and (max-width: 1110px){
+                    font-size: 3.5rem;
+                }
+                @media screen and (min-width: 1111px) and (max-width: 1350px){
+                    font-size: 3rem;
+                }
+            }
+        }
+        article{
+            background-color: rgba(255, 243, 253, 1);
+            a{
+                div{
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}

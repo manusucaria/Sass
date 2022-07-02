@@ -1,0 +1,191 @@
+//NAV
+nav{
+    background:linear-gradient(to right top, $mainColor, $secondaryColor);
+    opacity: .9;
+    width: 100%;
+    border-bottom: #262626 .1rem solid;
+    h1{
+        color: $white;
+        font-family: $conjuro;
+        font-size: 7rem;
+        font-weight: 600;
+        &:hover{
+            color: $hovers;
+            transform: translateX(.5px);
+        }
+        @media screen and (max-width: 361px){
+            font-size: 4rem;
+        }
+        @media screen and (max-width: 450px) and (min-width: 362px){
+            font-size: 5rem;
+        }
+        @media screen and (max-width: 687px) and (min-width: 451px){
+            font-size: 7rem;
+        }
+        @media screen and (min-width: 688px) and (max-width: 900px){
+            font-size: 4rem;
+        }
+        @media screen and (min-width: 901px) and (max-width: 1350px){
+            font-size: 7rem;
+        }
+    }
+    p{
+        color: $white;
+        font-family: $subtitulo;
+        font-size: 2rem;
+        font-weight: 300;
+        &:hover{
+            color: $hovers;
+            transform: translateX(.5px);
+        }
+        @media screen and (min-width: 280px) and (max-width: 361px){
+            font-size: 2rem;
+        }
+        @media screen and (max-width: 687px) and (min-width: 362px){
+            font-size: 3rem;
+        }
+        @media screen and (min-width: 688px) and (max-width: 900px){
+            font-size: 1.6rem;
+        }
+        @media screen and (min-width: 901px) and (max-width: 1110px){
+            font-size: 1.8rem;
+        }
+        @media screen and (min-width: 1111px) and (max-width: 1350px){
+            font-size: 1.5rem;
+        }
+    }
+    ul{
+        list-style-type: none;
+        li a{
+                p{
+                    color: $white;
+                    font-weight: 400;
+                    font-size: 2.5rem;
+                    @media screen and (min-width: 768px) and (max-width: 900px){
+                        font-size: 1.5rem;
+                    }
+                    @media screen and (min-width: 901px) and (max-width: 1110px){
+                        font-size: 2.5rem;
+                    }
+                    @media screen and (min-width: 1111px) and (max-width: 1350px){
+                        font-size: 2rem;
+                    }
+                    &:hover{
+                        color: $hovers;
+                        transform: translateX(.5px);
+                    }
+                }
+        }
+    }
+    button{
+        background-color: transparent;
+        border-color:transparent;
+        img{
+            height: 30px;
+            width: 30px;
+            background-color: transparent;
+            cursor: pointer;
+            &:hover{
+                transform: translateX(.5px);
+            }
+            @media screen and (min-width: 688px) and (max-width: 1110px){
+                height: 18px;
+                width: 18px;
+            }
+            @media screen and (min-width: 1111px) and (max-width: 1350px){
+                height: 21px;
+                width: 21px;
+            }
+        }
+    }
+}
+.logo{
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    margin: 1rem;
+    border: $borders .1rem solid;
+    &:hover{
+        transform: rotate(180deg);
+        transition: transform 2s;
+    }
+    @media screen and (max-width: 361px){
+        height: 35px;
+        width: 35px;
+    }
+    @media screen and (max-width: 450px) and (min-width: 362px){
+        height: 37px;
+        width: 37px;
+    }
+    @media screen and (max-width: 687px) and (min-width: 451px){
+        height: 50px;
+        width: 50px;
+    }
+    @media screen and (min-width: 688px) and (max-width: 900px){
+        height: 65px;
+        width: 65px;
+    }
+    @media screen and (min-width: 901px) and (max-width: 1110px){
+        height: 90px;
+        width: 90px
+    }
+    @media screen and (min-width: 1111px) and (max-width: 1350px){
+        height: 140px;
+        width: 140px;
+    }
+}
+.botones{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    opacity: .8;
+    &:hover{
+        transform: translateX(.5px);
+    }
+    @media screen and (max-width: 361px){
+        height: 13px;
+        width: 13px;
+        margin-left: 1rem;;
+    }
+    @media screen and (max-width: 450px) and (min-width: 362px){
+        height: 12px;
+        width: 12px;
+        margin-left: 1rem;
+    }
+    @media screen and (max-width: 687px) and (min-width: 451px){
+        height: 15px;
+        width: 15px;
+        margin-left: 1rem;
+    }
+    @media screen and (min-width: 688px) and (max-width: 1110px){
+        height: 20px;
+        width: 20px;
+    }
+    @media screen and (min-width: 1111px) and (max-width: 1350px){
+        height: 25px;
+        width: 25px;
+    }
+
+}
+.botones-margin{
+    margin:.3rem;
+}
+.buscador{
+    margin:.3rem;
+}
+.barra-buscadora{
+    height: 30px;
+    width: 150px;
+    @media screen and (min-width: 688px) and (max-width: 900px){
+        height: 18px;
+        width: 65px;
+    }
+    @media screen and (min-width: 901px) and (max-width: 1110px){
+        height: 20px;
+        width: 85px;
+    }
+    @media screen and (min-width: 1111px) and (max-width: 1350px){
+        height: 25px;
+        width: 100px;
+    }
+}

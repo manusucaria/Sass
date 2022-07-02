@@ -1,0 +1,128 @@
+main section form fieldset{
+    border-color: transparent;
+    input{
+        font-size: 2.5rem;
+        background:linear-gradient(to right top, $mainColor, $secondaryColor);
+        opacity: .9;
+        border: none;
+        border-bottom: 2px solid $borders;
+        @media screen and (max-width: 1350px){
+            font-size: 2rem;
+        }
+    }
+    label{
+        font-size: 2rem;
+        font-weight: 400;
+        @media screen and (max-width: 1110px){
+            font-size: 3rem;
+        }
+        @media screen and (min-width: 1111px) and (max-width: 1350px){
+            font-size: 2rem;
+        }
+    }
+    select{
+        height: 4rem;
+        font-size: 2rem;
+        cursor: pointer;
+        background:linear-gradient(to right top, $mainColor, $secondaryColor);
+        opacity: .9;
+        border-bottom: 2px solid $borders;
+        @media screen and (max-width: 361px){
+            height: 4rem;
+            font-size: 2rem;
+        }
+        @media screen and (max-width: 1110px) and (min-width: 362px){
+            height: 5rem;
+            font-size: 2rem;
+        }
+        @media screen and (min-width: 1111px) and (max-width: 1350px){
+            height: 4rem;
+            font-size: 2rem;
+        }
+    }
+    section{
+        input{
+            border: .1rem solid $borders;
+            &:hover{
+                animation-name: animateDiv;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                animation-duration: 5s;
+                animation-delay: 0s;
+                transform: translateX(.5px);
+            }
+        }
+        label{
+            input{
+                border: .1rem solid $borders;
+                &:hover{
+                    animation-name: animateDiv;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: linear;
+                    animation-duration: 5s;
+                    animation-delay: 0s;
+                    transform: translateX(.5px);
+                }
+            label{
+                font-size: 2rem;
+                }
+            }
+        }
+    }
+}
+@keyframes animateDiv{
+    0%{background:linear-gradient(to top $mainColor, $secondaryColor)}
+    25%{background:linear-gradient(to right, $secondaryColor, $mainColor)}
+    50%{background:linear-gradient(to bottom, $mainColor, $secondaryColor)}
+    75%{background:linear-gradient(to left, $secondaryColor, $mainColor)}
+    100%{background:linear-gradient(to top, $mainColor, $secondaryColor)}
+}
+.titulo-carrito{
+    font-size: 3rem;
+    font-weight: 500;
+    @media screen and (min-width: 280px) and (max-width: 361px){
+        font-size: 4rem;
+    }
+    @media screen and (max-width: 687px) and (min-width: 362px){
+        font-size: 5rem;
+    }
+    @media screen and (min-width: 688px) and (max-width: 900px){
+        font-size: 3rem;
+    }
+    @media screen and (min-width: 901px) and (max-width: 1110px){
+        font-size: 3.5rem;
+    }
+    @media screen and (min-width: 1111px) and (max-width: 1350px){
+        font-size: 3rem;
+    }
+}
+.titulo-mapa{
+    font-size: 3rem;
+    font-weight: 500;
+    @media screen and (min-width: 280px) and (max-width: 361px){
+        font-size: 3rem;
+    }
+    @media screen and (max-width: 687px) and (min-width: 362px){
+        font-size: 4rem;
+    }
+    @media screen and (min-width: 688px) and (max-width: 900px){
+        font-size: 2.2rem;
+    }
+    @media screen and (min-width: 901px) and (max-width: 1110px){
+        font-size: 2.5rem;
+    }
+    @media screen and (min-width: 1111px) and (max-width: 1350px){
+        font-size: 2rem;
+    }
+}
+.ubicacion{
+    margin-top: 10rem;
+}
+.botones-enviar{
+    cursor: pointer;
+}
+.checkbox{
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+}

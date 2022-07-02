@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../assets/img/icon.ico">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/animate.css">
+        <title>Conjuro Taller</title>
+    </head>
+    <body>
+        <!--HEADER-->
+        <header>
+            <nav class="navbar navbar-expand-md sticky-top">
+                <div class="container-fluid d-flex flex-row">
+                    <div class="navbar-brand simbolo align-self-center">
+                        <a class="navbar-brand" href="../index.html">
+                            <img class="logo" src="../assets/img/logo.jpeg" alt="Logo de Conjuro" title="Conjuro">
+                        </a>
+                    </div>
+                    <div class="titulo d-grid gap-3 mx-auto">
+                            <a class="mx-auto" href="../index.html">
+                                <h1>Conjuro</h1>
+                            </a>
+                            <a class="mx-auto" href="nosotros.html" target="_blank">
+                                    <p>Heal Create Share</p>
+                            </a>
+                            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#opciones" name="button">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="opciones">
+                                <ul class="navbar-nav d-flex flex-row">
+                                    <li class="nav-item mx-5">
+                                        <a class="nav-link" href="nuevo.html"><p>Nuevo</p></a>
+                                    </li>
+                                    <li class="nav-item mx-5">
+                                        <a class="nav-link" href="remeras.html"><p>Remeras</p></a>
+                                    </li>
+                                    <li class="nav-item mx-5">
+                                        <a class="nav-link" href="pantalones.html"><p>Pantalones</p></a>
+                                    </li>
+                                    <li class="nav-item mx-5">
+                                        <a class="nav-link" href="buzos.html"><p>Buzos</p></a>
+                                    </li>
+                                    <li class="nav-item mx-5">
+                                        <a class="nav-link" href="camperas.html"><p>Camperas</p></a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="justify-content-end align-self-start">
+                        <div class="d-flex flex-row">
+                            <a class="buotones-margin" href="../index.html">
+                                <img class="botones" src="../assets/img/home.png" alt="Home">
+                            </a>
+                            <a class="botones-margin" href="carrito.html">
+                                <img class="botones" src="../assets/img/carrito.png" alt="Carrito">
+                            </a>
+                            <form class="col d-none d-md-flex buscador" action="search">
+                                <input class="form-control barra-buscadora" type="search" placeholder="Search" aria-label="Search">
+                                <button type="submit"><img src="../assets/img/buscar.png" alt="Buscar"></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+            <!--MAIN-->
+        <main class="container-fluid">
+            <div class="d-flex">
+                <h3 class="text-white mx-auto titulo-carrito fondo-titulos">Contacto</h3>
+            </div>
+            <!-- inicia form -->
+            <div class="row">
+                <section>
+                    <form action="envio.php">
+                        <fieldset class="mx-auto w-75 d-flex flex-column">
+                            <label class="text-white me-auto mt-5 mb-3 fondo-titulos" for="name">Nombre y Apellido</label>
+                            <input class="w-100 text-white px-1 py-2" type="text" id="name" placeholder="Ingresa tu Nombre" required="">
+                            <label class="text-white me-auto mt-5 mb-3 fondo-titulos" for="email">Dirección de Email</label>
+                            <input class="w-100 text-white px-1 py-2" type="text" id="email" placeholder="email@gmail.com" required="">
+                            <label class="text-white me-auto mt-5 mb-3 fondo-titulos" for="telefono">Teléfono</label>
+                            <input class="w-100 text-white px-1 py-2" type="phone" id="telefono"  placeholder="1156323465" required="">
+                            <label class="text-white me-auto mt-5 mb-3 fondo-titulos" for="name">Ubicación</label>
+                            <select class="w-100 text-white px-1 py-2" name="provincia" id="provincia">Ubicacion
+                                <option class="text-black" value="buenos aires">Buenos Aires</option>
+                                <option class="text-black" value="cordoba">Cordoba</option>
+                                <option class="text-black" value="santa fe">Santa Fe</option>
+                                <option class="text-black" value="otras">Otras</option>
+                            </select>
+                            <label class="text-white me-auto mt-5 mb-3 fondo-titulos" for="product">Pedido</label>
+                                <input class="w-100 text-white px-1 py-2" type="text" id="product" placeholder="Ingresa el/los Modelo/s" required="">
+                            <div>
+                                <section class="d-flex flex-row justify-content-around align-items-start mt-4">
+                                    <input class="checkbox" type="checkbox" id="remera" placeholder="Remera">
+                                    <input class="checkbox" type="checkbox" id="pantalon" placeholder="Pantalon 2">
+                                    <input class="checkbox" type="checkbox" id="buzo" placeholder="Buzo 4">
+                                    <input class="checkbox" type="checkbox" id="campera" placeholder="Campera 2">
+                                </section>
+                                <section class="d-flex flex-row justify-content-around align-items-start opciones my-0 text-white">
+                                    <label class="fondo-titulos" for="remera">Remera</label>
+                                    <label class="fondo-titulos" for="pantalon">Pantalón</label>
+                                    <label class="fondo-titulos" for="buzo">Buzo</label>
+                                    <label class="fondo-titulos" for="campera">Campera</label>
+                                </section>
+                            </div>
+                            <section class="d-flex flex-row justify-content-around mt-5">
+                                <input class="w-50 text-white" type="submit" value="Enviar">
+                                <input class="w-50 text-white" type="reset" value="Cancelar">
+                            </section>
+                        </fieldset>
+                    </form>
+                </section>
+            </div>
+            <!-- ends form -->
+            <div class="row">
+                <section class="ubicacion d-flex flex-column">
+                    <h4 class="text-white mx-auto mb-4 titulo-mapa fondo-titulos">De Donde Somos</h4>
+                    <iframe class="mx-auto w-75" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13169.335839987958!2d-58.7468097!3d-34.3928566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca0212f1c9487%3A0x7cb0684a8144f24!2sLas%20Clavelinas%20-%20Hotel%20y%20Eventos!5e0!3m2!1ses-419!2sar!4v1653402769762!5m2!1ses-419!2sar" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </div>
+        </main>
+        <!--FOOTER-->
+        <footer>
+            <div>
+                <div class="d-flex">
+                    <h4 class="mx-auto text-white fondo-titulos">Seguinos</h4>
+                </div>
+                <ul class="d-flex justify-content-center mt-4">
+                    <li class="mx-3 mt-1">
+                        <a href="https://facebook.com" target="_blank">
+                            <img class="logos-redes m-2" src="../assets/img/facebook.ico" alt="Facebook" title="Facebook">
+                        </a>
+                    </li>
+                    <li class="mx-3 mt-1">
+                        <a href="https://www.instagram.com/conjuro_taller/" target="_blank">
+                            <img class="logos-redes m-2" src="../assets/img/instagram.ico" alt="Instagram" title="Instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+                <a class="mx-auto mt-4" href="talles.html" target="_blank"><h5 class="text-white fondo-titulos">Guía de Talles</h5></a>
+                <a class="mx-auto mt-4" href="nosotros.html" target="_blank"><h5 class="text-white fondo-titulos">Sobre Nosotros</h5></a>
+                <h6 class="mx-auto text-white mt-4 fondo-titulos">CONJURO DISEÑO Todos los Derechos Reservados</h6></small>
+            </div>
+        </footer>
+    <script src="../js/bootstrap.bundle.min.js">
+    </script>
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    </body>
+</html>
