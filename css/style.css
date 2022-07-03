@@ -1,4 +1,5 @@
 @import url("../assets/src/Helvetica-Neue-Font/Helvetica");
+@import url("../assets/src/Poor Richard/");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap");
 html {
   font-size: 62.5%; }
@@ -13,7 +14,7 @@ html {
       font-size: 60%; } }
 
 * {
-  font-family: 'Helvetica', sans-serif; }
+  font-family: "Poor Richard", sans-serif; }
 
 a {
   text-decoration: none; }
@@ -27,10 +28,10 @@ main div div img:hover {
   transition: transform 2s; }
 
 .fondo-titulos {
-  background-color: #577774; }
+  background-color: rgba(92, 127, 124, 0.8); }
 
 .fondo-parrafos {
-  background: linear-gradient(to right top, #5C7F7C, #577774); }
+  background: linear-gradient(to right top, rgba(92, 127, 124, 0.7), rgba(87, 119, 116, 0.7)); }
 
 body {
   background-image: url(../assets/img/fondo2.jpg);
@@ -93,17 +94,18 @@ nav {
     list-style-type: none; }
     nav ul li a p {
       color: #f5f3f3;
+      font-family: "Poor Richard", sans-serif;
       font-weight: 400;
-      font-size: 2.5rem; }
+      font-size: 3rem; }
       @media screen and (min-width: 768px) and (max-width: 900px) {
         nav ul li a p {
-          font-size: 1.5rem; } }
+          font-size: 2rem; } }
       @media screen and (min-width: 901px) and (max-width: 1110px) {
         nav ul li a p {
           font-size: 2.5rem; } }
       @media screen and (min-width: 1111px) and (max-width: 1350px) {
         nav ul li a p {
-          font-size: 2rem; } }
+          font-size: 2.2rem; } }
       nav ul li a p:hover {
         color: #343230;
         transform: translateX(0.5px); }
@@ -217,26 +219,27 @@ main section {
   margin-top: 10rem; }
 
 main div a h3 {
-  font-size: 3rem;
+  color: #f5f3f3;
+  font-size: 3.5rem;
   font-weight: 400; }
   main div a h3:hover {
     color: #343230;
     transform: translateX(0.5px); }
   @media screen and (min-width: 280px) and (max-width: 361px) {
     main div a h3 {
-      font-size: 4rem; } }
+      font-size: 4.3rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     main div a h3 {
-      font-size: 5rem; } }
+      font-size: 5.3rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     main div a h3 {
-      font-size: 3rem; } }
+      font-size: 3.3rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     main div a h3 {
-      font-size: 3.5rem; } }
+      font-size: 3.8rem; } }
   @media screen and (min-width: 1111px) and (max-width: 1350px) {
     main div a h3 {
-      font-size: 3rem; } }
+      font-size: 3.3rem; } }
 
 main div article {
   background-color: #fff3fd; }
@@ -244,46 +247,56 @@ main div article {
     padding: 5px; }
 
 footer h4 {
+  color: #f5f3f3;
   font-size: 2.5rem;
   font-weight: 500; }
   @media screen and (min-width: 280px) and (max-width: 361px) {
     footer h4 {
-      font-size: 3rem; } }
+      font-size: 3.7rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     footer h4 {
-      font-size: 4rem; } }
+      font-size: 4.7rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     footer h4 {
-      font-size: 2.2rem; } }
+      font-size: 2.7rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     footer h4 {
-      font-size: 2.5rem; } }
-  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+      font-size: 3rem; } }
+  @media screen and (min-width: 1111px) and (max-width: 1199px) {
     footer h4 {
-      font-size: 2rem; } }
+      font-size: 2.3rem; } }
+  @media screen and (min-width: 1200px) and (max-width: 1350px) {
+    footer h4 {
+      font-size: 2.2rem; } }
 
 footer h5 {
+  color: #f5f3f3;
   font-size: 2.5rem;
   font-weight: 500; }
   footer h5:hover {
+    color: #343230;
     transform: translateX(0.5px); }
   @media screen and (min-width: 280px) and (max-width: 361px) {
     footer h5 {
-      font-size: 3rem; } }
+      font-size: 3.7rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     footer h5 {
-      font-size: 4rem; } }
+      font-size: 4.7rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     footer h5 {
-      font-size: 2.2rem; } }
+      font-size: 2.7rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     footer h5 {
-      font-size: 2.5rem; } }
-  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+      font-size: 3rem; } }
+  @media screen and (min-width: 1111px) and (max-width: 1199px) {
     footer h5 {
-      font-size: 2rem; } }
+      font-size: 2.3rem; } }
+  @media screen and (min-width: 1200px) and (max-width: 1350px) {
+    footer h5 {
+      font-size: 2.2rem; } }
 
 footer h6 {
+  color: #f5f3f3;
   font-size: 1.5rem;
   font-weight: 500; }
   @media screen and (min-width: 280px) and (max-width: 361px) {
@@ -311,86 +324,87 @@ footer ul {
   border-radius: 50%; }
 
 main div div div p {
-  color: #f5f3f3; }
+  color: #f5f3f3;
+  font-family: "Poor Richard", sans-serif; }
 
 .parrafos {
-  font-size: 2.5rem; }
+  font-size: 2.7rem; }
   @media screen and (min-width: 280px) and (max-width: 361px) {
     .parrafos {
-      font-size: 3.5rem; } }
+      font-size: 3.7rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .parrafos {
-      font-size: 4.5rem; } }
+      font-size: 4.7rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .parrafos {
-      font-size: 2.5rem; } }
+      font-size: 2.7rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     .parrafos {
-      font-size: 3rem; } }
+      font-size: 3.2rem; } }
   @media screen and (min-width: 1111px) and (max-width: 1199px) {
     .parrafos {
-      font-size: 2.5rem; } }
+      font-size: 2.7rem; } }
   @media screen and (min-width: 1200px) and (max-width: 1350px) {
     .parrafos {
-      font-size: 2rem; } }
+      font-size: 2.2rem; } }
 
 .precios {
-  font-size: 2rem; }
+  font-size: 2.3rem; }
   @media screen and (min-width: 280px) and (max-width: 361px) {
     .precios {
-      font-size: 2rem; } }
+      font-size: 2.1rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .precios {
-      font-size: 3rem; } }
+      font-size: 3.2rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .precios {
-      font-size: 1.6rem; } }
+      font-size: 1.8rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     .precios {
-      font-size: 1.8rem; } }
+      font-size: 1.9rem; } }
   @media screen and (min-width: 1111px) and (max-width: 1350px) {
     .precios {
-      font-size: 1.5rem; } }
+      font-size: 1.7rem; } }
 
 main section form fieldset {
   border-color: transparent; }
   main section form fieldset input {
-    font-size: 2.5rem;
+    color: #f5f3f3;
+    font-size: 2.7rem;
     background: linear-gradient(to right top, #5C7F7C, #577774);
     opacity: .9;
     border: none;
     border-bottom: 2px solid #262626; }
     @media screen and (max-width: 1350px) {
       main section form fieldset input {
-        font-size: 2rem; } }
+        font-size: 2.2rem; } }
   main section form fieldset label {
-    font-size: 2rem;
+    color: #f5f3f3;
+    font-size: 2.2rem;
     font-weight: 400; }
     @media screen and (max-width: 1110px) {
       main section form fieldset label {
-        font-size: 3rem; } }
+        font-size: 3.2rem; } }
     @media screen and (min-width: 1111px) and (max-width: 1350px) {
       main section form fieldset label {
-        font-size: 2rem; } }
+        font-size: 2.2rem; } }
   main section form fieldset select {
+    color: #f5f3f3;
     height: 4rem;
-    font-size: 2rem;
+    font-size: 2.2rem;
     cursor: pointer;
     background: linear-gradient(to right top, #5C7F7C, #577774);
     opacity: .9;
     border-bottom: 2px solid #262626; }
     @media screen and (max-width: 361px) {
       main section form fieldset select {
-        height: 4rem;
-        font-size: 2rem; } }
+        height: 4rem; } }
     @media screen and (max-width: 1110px) and (min-width: 362px) {
       main section form fieldset select {
-        height: 5rem;
-        font-size: 2rem; } }
+        height: 5rem; } }
     @media screen and (min-width: 1111px) and (max-width: 1350px) {
       main section form fieldset select {
-        height: 4rem;
-        font-size: 2rem; } }
+        height: 4rem; } }
   main section form fieldset section input {
     border: 0.1rem solid #262626; }
     main section form fieldset section input:hover {
@@ -425,25 +439,27 @@ main section form fieldset {
     background: linear-gradient(to top, #5C7F7C, #577774); } }
 
 .titulo-carrito {
-  font-size: 3rem;
+  color: #f5f3f3;
+  font-size: 3.5rem;
   font-weight: 500; }
   @media screen and (min-width: 280px) and (max-width: 361px) {
     .titulo-carrito {
-      font-size: 4rem; } }
+      font-size: 4.3rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .titulo-carrito {
-      font-size: 5rem; } }
+      font-size: 5.3rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .titulo-carrito {
-      font-size: 3rem; } }
+      font-size: 3.3rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     .titulo-carrito {
-      font-size: 3.5rem; } }
+      font-size: 3.8rem; } }
   @media screen and (min-width: 1111px) and (max-width: 1350px) {
     .titulo-carrito {
-      font-size: 3rem; } }
+      font-size: 3.3rem; } }
 
 .titulo-mapa {
+  color: #f5f3f3;
   font-size: 3rem;
   font-weight: 500; }
   @media screen and (min-width: 280px) and (max-width: 361px) {
@@ -474,42 +490,44 @@ main section form fieldset {
   cursor: pointer; }
 
 .titulo-nosotros {
-  font-size: 3rem;
+  color: #f5f3f3;
+  font-size: 3.5rem;
   font-weight: 400; }
   @media screen and (min-width: 280px) and (max-width: 361px) {
     .titulo-nosotros {
-      font-size: 4rem; } }
+      font-size: 4.3rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .titulo-nosotros {
-      font-size: 5rem; } }
+      font-size: 5.3rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .titulo-nosotros {
-      font-size: 3rem; } }
+      font-size: 3.3rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     .titulo-nosotros {
-      font-size: 3.5rem; } }
+      font-size: 3.8rem; } }
   @media screen and (min-width: 1111px) and (max-width: 1350px) {
     .titulo-nosotros {
-      font-size: 3rem; } }
+      font-size: 3.3rem; } }
 
 .texto-nosotros {
-  font-size: 2.5rem;
+  color: #f5f3f3;
+  font-size: 3rem;
   font-weight: 300; }
   @media screen and (max-width: 450px) {
     .texto-nosotros {
-      font-size: 3rem; } }
+      font-size: 3.3rem; } }
   @media screen and (max-width: 687px) and (min-width: 451px) {
     .texto-nosotros {
-      font-size: 3.5rem; } }
+      font-size: 3.8rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .texto-nosotros {
-      font-size: 2.1rem; } }
+      font-size: 2.4rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     .texto-nosotros {
-      font-size: 2.3rem; } }
+      font-size: 2.6rem; } }
   @media screen and (min-width: 1111px) and (max-width: 1350px) {
     .texto-nosotros {
-      font-size: 2rem; } }
+      font-size: 2.3rem; } }
 
 main section table th {
   font-size: 2rem;
@@ -520,24 +538,26 @@ main section table td {
   font-weight: 200; }
 
 .titulo-talles {
-  font-size: 3rem;
+  color: #f5f3f3;
+  font-size: 3.5rem;
   font-weight: 500; }
   @media screen and (min-width: 280px) and (max-width: 361px) {
     .titulo-talles {
-      font-size: 4rem; } }
+      font-size: 4.3rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .titulo-talles {
-      font-size: 5rem; } }
+      font-size: 5.3rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .titulo-talles {
-      font-size: 3rem; } }
+      font-size: 3.3rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     .titulo-talles {
-      font-size: 3.5rem; } }
+      font-size: 3.8rem; } }
   @media screen and (min-width: 1111px) and (max-width: 1350px) {
     .titulo-talles {
-      font-size: 3rem; } }
+      font-size: 3.3rem; } }
 
 .titulos-tablas {
+  color: #f5f3f3;
   font-size: 3rem;
   font-weight: 400; }

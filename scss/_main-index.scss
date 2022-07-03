@@ -5,26 +5,27 @@ main{
     div{
         a{
             h3{
-                font-size: 3rem;
+                color: $white;
+                font-size: 3.5rem;
                 font-weight: 400;
                 &:hover{
-                    color: #343230;
+                    color: $hovers;
                     transform: translateX(.5px)
                 }
                 @media screen and (min-width: 280px) and (max-width: 361px){
-                    font-size: 4rem;
+                    font-size: 4.3rem;
                 }
                 @media screen and (max-width: 687px) and (min-width: 362px){
-                    font-size: 5rem;
+                    font-size: 5.3rem;
                 }
                 @media screen and (min-width: 688px) and (max-width: 900px){
-                    font-size: 3rem;
+                    font-size: 3.3rem;
                 }
                 @media screen and (min-width: 901px) and (max-width: 1110px){
-                    font-size: 3.5rem;
+                    font-size: 3.8rem;
                 }
                 @media screen and (min-width: 1111px) and (max-width: 1350px){
-                    font-size: 3rem;
+                    font-size: 3.3rem;
                 }
             }
         }

@@ -1,5 +1,5 @@
 * {
-    font-family: 'Helvetica', sans-serif;
+    font-family: $richard;
 }
 a{
     text-decoration: none;
@@ -13,8 +13,8 @@ main div div img:hover{
     transition: transform 2s;
 }
 .fondo-titulos{
-    background-color: #577774;
+    background-color: rgba($color: $mainColor, $alpha: .8);
 }
 .fondo-parrafos{
-    background: linear-gradient(to right top, #5C7F7C, #577774);
+    background: linear-gradient(to right top, rgba($color: $mainColor, $alpha: .7), rgba($color: $secondaryColor, $alpha: .7));
 }
