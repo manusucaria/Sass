@@ -71,6 +71,7 @@ nav{
                     @media screen and (min-width: 1111px) and (max-width: 1350px){
                         font-size: 2.2rem;
                     }
+                    transition: transform .1s;
                     &:hover{
                         color: $hovers;
                         transform: translateX(.5px);
@@ -86,6 +87,7 @@ nav{
             width: 30px;
             background-color: transparent;
             cursor: pointer;
+            transition: transform .1s;
             &:hover{
                 transform: translateX(.5px);
             }
@@ -106,6 +108,7 @@ nav{
     border-radius: 50%;
     margin: 1rem;
     border: $borders .1rem solid;
+    transition: transform .1s;
     &:hover{
         transform: rotate(180deg);
         transition: transform 2s;
@@ -140,6 +143,7 @@ nav{
     width: 30px;
     border-radius: 50%;
     opacity: .8;
+    transition: transform .1s;
     &:hover{
         transform: translateX(.5px);
     }

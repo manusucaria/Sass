@@ -96,7 +96,8 @@ nav {
       color: #f5f3f3;
       font-family: "Poor Richard", sans-serif;
       font-weight: 400;
-      font-size: 3rem; }
+      font-size: 3rem;
+      transition: transform .1s; }
       @media screen and (min-width: 768px) and (max-width: 900px) {
         nav ul li a p {
           font-size: 2rem; } }
@@ -116,7 +117,8 @@ nav {
       height: 30px;
       width: 30px;
       background-color: transparent;
-      cursor: pointer; }
+      cursor: pointer;
+      transition: transform .1s; }
       nav button img:hover {
         transform: translateX(0.5px); }
       @media screen and (min-width: 688px) and (max-width: 1110px) {
@@ -133,7 +135,8 @@ nav {
   width: 190px;
   border-radius: 50%;
   margin: 1rem;
-  border: #262626 0.1rem solid; }
+  border: #262626 0.1rem solid;
+  transition: transform .1s; }
   .logo:hover {
     transform: rotate(180deg);
     transition: transform 2s; }
@@ -166,7 +169,8 @@ nav {
   height: 30px;
   width: 30px;
   border-radius: 50%;
-  opacity: .8; }
+  opacity: .8;
+  transition: transform .1s; }
   .botones:hover {
     transform: translateX(0.5px); }
   @media screen and (max-width: 361px) {
@@ -216,35 +220,35 @@ nav {
       width: 100px; } }
 
 main section {
-  margin-top: 10rem; }
-
-main div a h3 {
-  color: #f5f3f3;
-  font-size: 3.5rem;
-  font-weight: 400; }
-  main div a h3:hover {
-    color: #343230;
-    transform: translateX(0.5px); }
-  @media screen and (min-width: 280px) and (max-width: 361px) {
-    main div a h3 {
-      font-size: 4.3rem; } }
-  @media screen and (max-width: 687px) and (min-width: 362px) {
-    main div a h3 {
-      font-size: 5.3rem; } }
-  @media screen and (min-width: 688px) and (max-width: 900px) {
-    main div a h3 {
-      font-size: 3.3rem; } }
-  @media screen and (min-width: 901px) and (max-width: 1110px) {
-    main div a h3 {
-      font-size: 3.8rem; } }
-  @media screen and (min-width: 1111px) and (max-width: 1350px) {
-    main div a h3 {
-      font-size: 3.3rem; } }
-
-main div article {
-  background-color: #fff3fd; }
-  main div article a div {
-    padding: 5px; }
+  margin-top: 10rem;
+  border: solid #577774 1px; }
+  main section div {
+    background-color: #f5f3f3; }
+    main section div a h3 {
+      color: #151414;
+      font-size: 3.3rem;
+      font-weight: 400;
+      transition: transform .1s; }
+      main section div a h3:hover {
+        color: #4b4a49;
+        transform: translateX(0.3px); }
+      @media screen and (min-width: 280px) and (max-width: 361px) {
+        main section div a h3 {
+          font-size: 4.3rem; } }
+      @media screen and (max-width: 687px) and (min-width: 362px) {
+        main section div a h3 {
+          font-size: 5.3rem; } }
+      @media screen and (min-width: 688px) and (max-width: 900px) {
+        main section div a h3 {
+          font-size: 3.3rem; } }
+      @media screen and (min-width: 901px) and (max-width: 1110px) {
+        main section div a h3 {
+          font-size: 3.8rem; } }
+      @media screen and (min-width: 1111px) and (max-width: 1350px) {
+        main section div a h3 {
+          font-size: 3.3rem; } }
+  main section article {
+    background-color: #f5f3f3; }
 
 footer h4 {
   color: #f5f3f3;
@@ -272,7 +276,8 @@ footer h4 {
 footer h5 {
   color: #f5f3f3;
   font-size: 2.5rem;
-  font-weight: 500; }
+  font-weight: 500;
+  transition: transform .1s; }
   footer h5:hover {
     color: #343230;
     transform: translateX(0.5px); }

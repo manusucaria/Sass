@@ -1,41 +1,39 @@
 main{
     section{
         margin-top: 10rem;
-    }
-    div{
-        a{
-            h3{
-                color: $white;
-                font-size: 3.5rem;
-                font-weight: 400;
-                &:hover{
-                    color: $hovers;
-                    transform: translateX(.5px)
-                }
-                @media screen and (min-width: 280px) and (max-width: 361px){
-                    font-size: 4.3rem;
-                }
-                @media screen and (max-width: 687px) and (min-width: 362px){
-                    font-size: 5.3rem;
-                }
-                @media screen and (min-width: 688px) and (max-width: 900px){
+        border: solid $secondaryColor 1px;
+        div{
+            background-color: $white;
+            a{
+                h3{
+                    color: $black;
                     font-size: 3.3rem;
-                }
-                @media screen and (min-width: 901px) and (max-width: 1110px){
-                    font-size: 3.8rem;
-                }
-                @media screen and (min-width: 1111px) and (max-width: 1350px){
-                    font-size: 3.3rem;
+                    font-weight: 400;
+                    transition: transform .1s;
+                    &:hover{
+                        color: $hoversMain;
+                        transform: translateX(.3px)
+                    }
+                    @media screen and (min-width: 280px) and (max-width: 361px){
+                        font-size: 4.3rem;
+                    }
+                    @media screen and (max-width: 687px) and (min-width: 362px){
+                        font-size: 5.3rem;
+                    }
+                    @media screen and (min-width: 688px) and (max-width: 900px){
+                        font-size: 3.3rem;
+                    }
+                    @media screen and (min-width: 901px) and (max-width: 1110px){
+                        font-size: 3.8rem;
+                    }
+                    @media screen and (min-width: 1111px) and (max-width: 1350px){
+                        font-size: 3.3rem;
+                    }
                 }
             }
         }
         article{
-            background-color: rgba(255, 243, 253, 1);
-            a{
-                div{
-                    padding: 5px;
-                }
-            }
+            background-color: $white;
         }
     }
 }
