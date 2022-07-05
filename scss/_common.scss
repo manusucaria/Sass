@@ -9,8 +9,8 @@ main{
     margin-bottom: 10rem;
 }
 main div div img:hover{
-    transform: scale(1.10);
-    transition: transform 2s;
+    transform: scale(1.03);
+    transition: transform 1.6s ease;
 }
 .fondo-titulos{
     background-color: rgba($color: $mainColor, $alpha: .8);

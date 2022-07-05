@@ -1,4 +1,8 @@
 footer{
+    background:linear-gradient(to right top, $mainColor, $secondaryColor);
+    opacity: .9;
+    width: 100%;
+    border-bottom: #262626 .1rem solid;
     h4{
         color: $white;
         font-size: 2.5rem;

@@ -24,8 +24,8 @@ main {
   margin-bottom: 10rem; }
 
 main div div img:hover {
-  transform: scale(1.1);
-  transition: transform 2s; }
+  transform: scale(1.03);
+  transition: transform 1.6s ease; }
 
 .fondo-titulos {
   background-color: rgba(92, 127, 124, 0.8); }
@@ -222,106 +222,109 @@ nav {
 main section {
   margin-top: 10rem;
   border: solid #577774 1px; }
-  main section div {
-    background-color: #f5f3f3; }
-    main section div a h3 {
-      color: #151414;
-      font-size: 3.3rem;
-      font-weight: 400;
-      transition: transform .1s; }
-      main section div a h3:hover {
-        color: #4b4a49;
-        transform: translateX(0.3px); }
-      @media screen and (min-width: 280px) and (max-width: 361px) {
-        main section div a h3 {
-          font-size: 4.3rem; } }
-      @media screen and (max-width: 687px) and (min-width: 362px) {
-        main section div a h3 {
-          font-size: 5.3rem; } }
-      @media screen and (min-width: 688px) and (max-width: 900px) {
-        main section div a h3 {
-          font-size: 3.3rem; } }
-      @media screen and (min-width: 901px) and (max-width: 1110px) {
-        main section div a h3 {
-          font-size: 3.8rem; } }
-      @media screen and (min-width: 1111px) and (max-width: 1350px) {
-        main section div a h3 {
-          font-size: 3.3rem; } }
+  main section div a h3 {
+    color: #151414;
+    font-size: 3.3rem;
+    font-weight: 400;
+    transition: transform .1s; }
+    main section div a h3:hover {
+      color: #4b4a49;
+      transform: translateX(0.3px); }
+    @media screen and (min-width: 280px) and (max-width: 361px) {
+      main section div a h3 {
+        font-size: 4.3rem; } }
+    @media screen and (max-width: 687px) and (min-width: 362px) {
+      main section div a h3 {
+        font-size: 5.3rem; } }
+    @media screen and (min-width: 688px) and (max-width: 900px) {
+      main section div a h3 {
+        font-size: 3.3rem; } }
+    @media screen and (min-width: 901px) and (max-width: 1110px) {
+      main section div a h3 {
+        font-size: 3.8rem; } }
+    @media screen and (min-width: 1111px) and (max-width: 1350px) {
+      main section div a h3 {
+        font-size: 3.3rem; } }
   main section article {
     background-color: #f5f3f3; }
 
-footer h4 {
-  color: #f5f3f3;
-  font-size: 2.5rem;
-  font-weight: 500; }
-  @media screen and (min-width: 280px) and (max-width: 361px) {
-    footer h4 {
-      font-size: 3.7rem; } }
-  @media screen and (max-width: 687px) and (min-width: 362px) {
-    footer h4 {
-      font-size: 4.7rem; } }
-  @media screen and (min-width: 688px) and (max-width: 900px) {
-    footer h4 {
-      font-size: 2.7rem; } }
-  @media screen and (min-width: 901px) and (max-width: 1110px) {
-    footer h4 {
-      font-size: 3rem; } }
-  @media screen and (min-width: 1111px) and (max-width: 1199px) {
-    footer h4 {
-      font-size: 2.3rem; } }
-  @media screen and (min-width: 1200px) and (max-width: 1350px) {
-    footer h4 {
-      font-size: 2.2rem; } }
+.fondo-sections {
+  background-color: #f5f3f3; }
 
-footer h5 {
-  color: #f5f3f3;
-  font-size: 2.5rem;
-  font-weight: 500;
-  transition: transform .1s; }
-  footer h5:hover {
-    color: #343230;
-    transform: translateX(0.5px); }
-  @media screen and (min-width: 280px) and (max-width: 361px) {
-    footer h5 {
-      font-size: 3.7rem; } }
-  @media screen and (max-width: 687px) and (min-width: 362px) {
-    footer h5 {
-      font-size: 4.7rem; } }
-  @media screen and (min-width: 688px) and (max-width: 900px) {
-    footer h5 {
-      font-size: 2.7rem; } }
-  @media screen and (min-width: 901px) and (max-width: 1110px) {
-    footer h5 {
-      font-size: 3rem; } }
-  @media screen and (min-width: 1111px) and (max-width: 1199px) {
-    footer h5 {
-      font-size: 2.3rem; } }
-  @media screen and (min-width: 1200px) and (max-width: 1350px) {
-    footer h5 {
-      font-size: 2.2rem; } }
-
-footer h6 {
-  color: #f5f3f3;
-  font-size: 1.5rem;
-  font-weight: 500; }
-  @media screen and (min-width: 280px) and (max-width: 361px) {
-    footer h6 {
-      font-size: 2rem; } }
-  @media screen and (max-width: 687px) and (min-width: 362px) {
-    footer h6 {
-      font-size: 3rem; } }
-  @media screen and (min-width: 688px) and (max-width: 900px) {
-    footer h6 {
-      font-size: 1.6rem; } }
-  @media screen and (min-width: 901px) and (max-width: 1110px) {
-    footer h6 {
-      font-size: 1.8rem; } }
-  @media screen and (min-width: 1111px) and (max-width: 1350px) {
-    footer h6 {
-      font-size: 1.5rem; } }
-
-footer ul {
-  list-style-type: none; }
+footer {
+  background: linear-gradient(to right top, #5C7F7C, #577774);
+  opacity: .9;
+  width: 100%;
+  border-bottom: #262626 .1rem solid; }
+  footer h4 {
+    color: #f5f3f3;
+    font-size: 2.5rem;
+    font-weight: 500; }
+    @media screen and (min-width: 280px) and (max-width: 361px) {
+      footer h4 {
+        font-size: 3.7rem; } }
+    @media screen and (max-width: 687px) and (min-width: 362px) {
+      footer h4 {
+        font-size: 4.7rem; } }
+    @media screen and (min-width: 688px) and (max-width: 900px) {
+      footer h4 {
+        font-size: 2.7rem; } }
+    @media screen and (min-width: 901px) and (max-width: 1110px) {
+      footer h4 {
+        font-size: 3rem; } }
+    @media screen and (min-width: 1111px) and (max-width: 1199px) {
+      footer h4 {
+        font-size: 2.3rem; } }
+    @media screen and (min-width: 1200px) and (max-width: 1350px) {
+      footer h4 {
+        font-size: 2.2rem; } }
+  footer h5 {
+    color: #f5f3f3;
+    font-size: 2.5rem;
+    font-weight: 500;
+    transition: transform .1s; }
+    footer h5:hover {
+      color: #343230;
+      transform: translateX(0.5px); }
+    @media screen and (min-width: 280px) and (max-width: 361px) {
+      footer h5 {
+        font-size: 3.7rem; } }
+    @media screen and (max-width: 687px) and (min-width: 362px) {
+      footer h5 {
+        font-size: 4.7rem; } }
+    @media screen and (min-width: 688px) and (max-width: 900px) {
+      footer h5 {
+        font-size: 2.7rem; } }
+    @media screen and (min-width: 901px) and (max-width: 1110px) {
+      footer h5 {
+        font-size: 3rem; } }
+    @media screen and (min-width: 1111px) and (max-width: 1199px) {
+      footer h5 {
+        font-size: 2.3rem; } }
+    @media screen and (min-width: 1200px) and (max-width: 1350px) {
+      footer h5 {
+        font-size: 2.2rem; } }
+  footer h6 {
+    color: #f5f3f3;
+    font-size: 1.5rem;
+    font-weight: 500; }
+    @media screen and (min-width: 280px) and (max-width: 361px) {
+      footer h6 {
+        font-size: 2rem; } }
+    @media screen and (max-width: 687px) and (min-width: 362px) {
+      footer h6 {
+        font-size: 3rem; } }
+    @media screen and (min-width: 688px) and (max-width: 900px) {
+      footer h6 {
+        font-size: 1.6rem; } }
+    @media screen and (min-width: 901px) and (max-width: 1110px) {
+      footer h6 {
+        font-size: 1.8rem; } }
+    @media screen and (min-width: 1111px) and (max-width: 1350px) {
+      footer h6 {
+        font-size: 1.5rem; } }
+  footer ul {
+    list-style-type: none; }
 
 .logos-redes {
   height: 5rem;
@@ -329,7 +332,7 @@ footer ul {
   border-radius: 50%; }
 
 main div div div p {
-  color: #f5f3f3;
+  color: #151414;
   font-family: "Poor Richard", sans-serif; }
 
 .parrafos {
@@ -354,7 +357,7 @@ main div div div p {
       font-size: 2.2rem; } }
 
 .precios {
-  font-size: 2.3rem; }
+  font-size: 2rem; }
   @media screen and (min-width: 280px) and (max-width: 361px) {
     .precios {
       font-size: 2.1rem; } }

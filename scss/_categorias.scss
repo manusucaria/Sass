@@ -1,5 +1,5 @@
 main div div div p{
-    color: $white;
+    color: $black;
     font-family: $richard;
 }
 .parrafos{
@@ -24,7 +24,7 @@ main div div div p{
     }
 }
 .precios{
-    font-size: 2.3rem;
+    font-size: 2rem;
     @media screen and (min-width: 280px) and (max-width: 361px){
         font-size: 2.1rem;
     }

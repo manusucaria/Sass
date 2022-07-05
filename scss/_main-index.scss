@@ -3,7 +3,6 @@ main{
         margin-top: 10rem;
         border: solid $secondaryColor 1px;
         div{
-            background-color: $white;
             a{
                 h3{
                     color: $black;
@@ -36,4 +35,7 @@ main{
             background-color: $white;
         }
     }
+}
+.fondo-sections{
+    background-color: $white;
 }
