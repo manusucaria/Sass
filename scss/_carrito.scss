@@ -1,19 +1,21 @@
 main section form fieldset{
     border-color: transparent;
     input{
-        color: $black;
+        color: $white;
         font-size: 2.7rem;
         background-color: #A7D4D9;
         opacity: .9;
         border: 2px solid $borders;
+        border-bottom: rgb(116, 77, 77) solid 1px;
         @media screen and (max-width: 1350px){
             font-size: 2.2rem;
         }
     }
     label{
-        color: $black;
+        color: $white;
         font-size: 2.7rem;
         font-weight: 400;
+        border-bottom: rgb(116, 77, 77) solid 1px;
         @media screen and (max-width: 1110px){
             font-size: 3.2rem;
         }
@@ -22,13 +24,14 @@ main section form fieldset{
         }
     }
     select{
-        color: $black;
-        height: 4rem;
-        font-size: 2.2rem;
+        color: $white;
+        height: 5rem;
+        font-size: 2.5rem;
         cursor: pointer;
         background:linear-gradient(to right top, $mainColor, $secondaryColor);
         opacity: .9;
-        border-bottom: 2px solid $borders;
+        border: 2px solid $borders;
+        border-bottom: rgb(116, 77, 77) solid 1px;
         @media screen and (max-width: 361px){
             height: 4rem;
         }
@@ -54,6 +57,7 @@ main section form fieldset{
         label{
             input{
                 border: .1rem solid $borders;
+                border-bottom: rgb(116, 77, 77) solid 1px;
                 &:hover{
                     animation-name: animateDiv;
                     animation-iteration-count: infinite;
@@ -70,14 +74,14 @@ main section form fieldset{
     }
 }
 @keyframes animateDiv{
-    0%{background:linear-gradient(to top $mainColor, $secondaryColor)}
+    0%{background:linear-gradient(to top $mainColor, #A7D4D9)}
     25%{background:linear-gradient(to right, $secondaryColor, $mainColor)}
     50%{background:linear-gradient(to bottom, $mainColor, $secondaryColor)}
     75%{background:linear-gradient(to left, $secondaryColor, $mainColor)}
-    100%{background:linear-gradient(to top, $mainColor, $secondaryColor)}
+    100%{background:linear-gradient(to top, $mainColor, #A7D4D9)}
 }
 .titulo-carrito{
-    color: $black;
+    color: $white;
     font-size: 3.7rem;
     font-weight: 500;
     @media screen and (min-width: 280px) and (max-width: 361px){
@@ -97,7 +101,7 @@ main section form fieldset{
     }
 }
 .titulo-mapa{
-    color: $black;
+    color: $white;
     font-size: 3rem;
     font-weight: 500;
     @media screen and (min-width: 280px) and (max-width: 361px){
@@ -118,7 +122,7 @@ main section form fieldset{
 }
 .form-fondo{
     background-color: $mainColor;
-    border: solid $secondaryColor 5px;
+    border: solid $secondaryColor 3px;
 }
 .ubicacion{
     margin-top: 10rem;
