@@ -6,22 +6,22 @@ footer{
     p{
         padding-top: 2rem;
         color: $white;
-        font-size: 2.8rem;
+        font-size: 2.3rem;
         font-weight: 500;
         @media screen and (min-width: 280px) and (max-width: 361px){
-            font-size: 3.7rem;
+            font-size: 3.3rem;
         }
         @media screen and (max-width: 687px) and (min-width: 362px){
-            font-size: 4.7rem;
+            font-size: 4.3rem;
         }
         @media screen and (min-width: 688px) and (max-width: 900px){
-            font-size: 2.7rem;
+            font-size: 2.3rem;
         }
         @media screen and (min-width: 901px) and (max-width: 1110px){
-            font-size: 3rem;
+            font-size: 2.7rem;
         }
         @media screen and (min-width: 1111px) and (max-width: 1199px){
-            font-size: 2.3rem;
+            font-size: 2rem;
         }
         @media screen and (min-width: 1200px) and (max-width: 1350px){
             font-size: 2.2rem;
@@ -29,7 +29,7 @@ footer{
     }
     h4{
         color: $white;
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         font-weight: 500;
         transition: transform .1s;
         &:hover{
@@ -37,19 +37,19 @@ footer{
             transform: translateX(.5px);
         }
         @media screen and (min-width: 280px) and (max-width: 361px){
-            font-size: 3.7rem;
+            font-size: 3.3rem;
         }
         @media screen and (max-width: 687px) and (min-width: 362px){
-            font-size: 4.7rem;
+            font-size: 4.3rem;
         }
         @media screen and (min-width: 688px) and (max-width: 900px){
-            font-size: 2.7rem;
+            font-size: 2.3rem;
         }
         @media screen and (min-width: 901px) and (max-width: 1110px){
-            font-size: 3rem;
+            font-size: 2.7rem;
         }
         @media screen and (min-width: 1111px) and (max-width: 1199px){
-            font-size: 2.3rem;
+            font-size: 2rem;
         }
         @media screen and (min-width: 1200px) and (max-width: 1350px){
             font-size: 2.2rem;

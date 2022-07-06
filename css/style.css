@@ -54,7 +54,7 @@ nav {
       transform: translateX(0.5px); }
     @media screen and (max-width: 361px) {
       nav h1 {
-        font-size: 4rem; } }
+        font-size: 3.5rem; } }
     @media screen and (max-width: 450px) and (min-width: 362px) {
       nav h1 {
         font-size: 5rem; } }
@@ -98,6 +98,15 @@ nav {
       font-weight: 400;
       font-size: 3rem;
       transition: transform .1s; }
+      @media screen and (min-width: 280px) and (max-width: 361px) {
+        nav ul li a p {
+          font-size: 2rem; } }
+      @media screen and (max-width: 687px) and (min-width: 362px) {
+        nav ul li a p {
+          font-size: 3rem; } }
+      @media screen and (min-width: 688px) and (max-width: 900px) {
+        nav ul li a p {
+          font-size: 1.6rem; } }
       @media screen and (min-width: 768px) and (max-width: 900px) {
         nav ul li a p {
           font-size: 2rem; } }
@@ -232,19 +241,19 @@ main section {
       transform: translateX(0.3px); }
     @media screen and (min-width: 280px) and (max-width: 361px) {
       main section div a h3 {
-        font-size: 4.3rem; } }
+        font-size: 3.3rem; } }
     @media screen and (max-width: 687px) and (min-width: 362px) {
       main section div a h3 {
-        font-size: 5.3rem; } }
+        font-size: 4.5rem; } }
     @media screen and (min-width: 688px) and (max-width: 900px) {
       main section div a h3 {
-        font-size: 3.3rem; } }
+        font-size: 2.5rem; } }
     @media screen and (min-width: 901px) and (max-width: 1110px) {
       main section div a h3 {
-        font-size: 3.8rem; } }
+        font-size: 3rem; } }
     @media screen and (min-width: 1111px) and (max-width: 1350px) {
       main section div a h3 {
-        font-size: 3.3rem; } }
+        font-size: 2.7rem; } }
   main section article {
     background-color: #f5f3f3; }
 
@@ -259,29 +268,29 @@ footer {
   footer p {
     padding-top: 2rem;
     color: #f5f3f3;
-    font-size: 2.8rem;
+    font-size: 2.3rem;
     font-weight: 500; }
     @media screen and (min-width: 280px) and (max-width: 361px) {
       footer p {
-        font-size: 3.7rem; } }
+        font-size: 3.3rem; } }
     @media screen and (max-width: 687px) and (min-width: 362px) {
       footer p {
-        font-size: 4.7rem; } }
+        font-size: 4.3rem; } }
     @media screen and (min-width: 688px) and (max-width: 900px) {
       footer p {
-        font-size: 2.7rem; } }
+        font-size: 2.3rem; } }
     @media screen and (min-width: 901px) and (max-width: 1110px) {
       footer p {
-        font-size: 3rem; } }
+        font-size: 2.7rem; } }
     @media screen and (min-width: 1111px) and (max-width: 1199px) {
       footer p {
-        font-size: 2.3rem; } }
+        font-size: 2rem; } }
     @media screen and (min-width: 1200px) and (max-width: 1350px) {
       footer p {
         font-size: 2.2rem; } }
   footer h4 {
     color: #f5f3f3;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 500;
     transition: transform .1s; }
     footer h4:hover {
@@ -289,19 +298,19 @@ footer {
       transform: translateX(0.5px); }
     @media screen and (min-width: 280px) and (max-width: 361px) {
       footer h4 {
-        font-size: 3.7rem; } }
+        font-size: 3.3rem; } }
     @media screen and (max-width: 687px) and (min-width: 362px) {
       footer h4 {
-        font-size: 4.7rem; } }
+        font-size: 4.3rem; } }
     @media screen and (min-width: 688px) and (max-width: 900px) {
       footer h4 {
-        font-size: 2.7rem; } }
+        font-size: 2.3rem; } }
     @media screen and (min-width: 901px) and (max-width: 1110px) {
       footer h4 {
-        font-size: 3rem; } }
+        font-size: 2.7rem; } }
     @media screen and (min-width: 1111px) and (max-width: 1199px) {
       footer h4 {
-        font-size: 2.3rem; } }
+        font-size: 2rem; } }
     @media screen and (min-width: 1200px) and (max-width: 1350px) {
       footer h4 {
         font-size: 2.2rem; } }
