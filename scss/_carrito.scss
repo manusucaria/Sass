@@ -1,19 +1,18 @@
 main section form fieldset{
     border-color: transparent;
     input{
-        color: $white;
+        color: $black;
         font-size: 2.7rem;
-        background:linear-gradient(to right top, $mainColor, $secondaryColor);
+        background-color: #A7D4D9;
         opacity: .9;
-        border: none;
-        border-bottom: 2px solid $borders;
+        border: 2px solid $borders;
         @media screen and (max-width: 1350px){
             font-size: 2.2rem;
         }
     }
     label{
-        color: $white;
-        font-size: 2.2rem;
+        color: $black;
+        font-size: 2.7rem;
         font-weight: 400;
         @media screen and (max-width: 1110px){
             font-size: 3.2rem;
@@ -23,7 +22,7 @@ main section form fieldset{
         }
     }
     select{
-        color: $white;
+        color: $black;
         height: 4rem;
         font-size: 2.2rem;
         cursor: pointer;
@@ -78,8 +77,8 @@ main section form fieldset{
     100%{background:linear-gradient(to top, $mainColor, $secondaryColor)}
 }
 .titulo-carrito{
-    color: $white;
-    font-size: 3.5rem;
+    color: $black;
+    font-size: 3.7rem;
     font-weight: 500;
     @media screen and (min-width: 280px) and (max-width: 361px){
         font-size: 4.3rem;
@@ -98,7 +97,7 @@ main section form fieldset{
     }
 }
 .titulo-mapa{
-    color: $white;
+    color: $black;
     font-size: 3rem;
     font-weight: 500;
     @media screen and (min-width: 280px) and (max-width: 361px){
@@ -116,6 +115,10 @@ main section form fieldset{
     @media screen and (min-width: 1111px) and (max-width: 1350px){
         font-size: 2rem;
     }
+}
+.form-fondo{
+    background-color: $mainColor;
+    border: solid $secondaryColor 5px;
 }
 .ubicacion{
     margin-top: 10rem;
