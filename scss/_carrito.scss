@@ -1,9 +1,9 @@
 main section form fieldset{
     border-color: transparent;
     input{
-        color: $white;
+        color: $black;
         font-size: 2.7rem;
-        background-color: #A7D4D9;
+        background-color: $white;
         opacity: .9;
         border: 2px solid $borders;
         border-bottom: rgb(116, 77, 77) solid 1px;
@@ -24,7 +24,7 @@ main section form fieldset{
         }
     }
     select{
-        color: $white;
+        color: $black;
         height: 5rem;
         font-size: 2.5rem;
         cursor: pointer;
@@ -44,6 +44,7 @@ main section form fieldset{
     }
     section{
         input{
+            color: $black;
             border: .1rem solid $borders;
             &:hover{
                 animation-name: animateDiv;

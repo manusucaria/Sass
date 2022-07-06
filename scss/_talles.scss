@@ -34,6 +34,17 @@ main{
 }
 .titulos-tablas{
     color: $white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 400;
+}
+.fondo-talles{
+    background-color: $black;
+    border-top: $mainColor solid 1.2px;
+}
+.fondo-tablas{
+    background-color: $black;
+    border-top: $mainColor solid 1.2px;
+}
+.tablas-margin{
+    margin: 0;
 }

@@ -2,10 +2,11 @@ footer{
     background:linear-gradient(to right top, $mainColor, $secondaryColor);
     opacity: .9;
     width: 100%;
-    border-bottom: #262626 .1rem solid;
-    h4{
+    border-top: #262626 .1rem solid;
+    p{
+        padding-top: 2rem;
         color: $white;
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         font-weight: 500;
         @media screen and (min-width: 280px) and (max-width: 361px){
             font-size: 3.7rem;
@@ -26,7 +27,7 @@ footer{
             font-size: 2.2rem;
         }
     }
-    h5{
+    h4{
         color: $white;
         font-size: 2.5rem;
         font-weight: 500;
@@ -54,7 +55,7 @@ footer{
             font-size: 2.2rem;
         }
     }
-    h6{
+    h5{
         color: $white;
         font-size: 1.5rem;
         font-weight: 500;

@@ -255,11 +255,38 @@ footer {
   background: linear-gradient(to right top, #5C7F7C, #577774);
   opacity: .9;
   width: 100%;
-  border-bottom: #262626 .1rem solid; }
+  border-top: #262626 .1rem solid; }
+  footer p {
+    padding-top: 2rem;
+    color: #f5f3f3;
+    font-size: 2.8rem;
+    font-weight: 500; }
+    @media screen and (min-width: 280px) and (max-width: 361px) {
+      footer p {
+        font-size: 3.7rem; } }
+    @media screen and (max-width: 687px) and (min-width: 362px) {
+      footer p {
+        font-size: 4.7rem; } }
+    @media screen and (min-width: 688px) and (max-width: 900px) {
+      footer p {
+        font-size: 2.7rem; } }
+    @media screen and (min-width: 901px) and (max-width: 1110px) {
+      footer p {
+        font-size: 3rem; } }
+    @media screen and (min-width: 1111px) and (max-width: 1199px) {
+      footer p {
+        font-size: 2.3rem; } }
+    @media screen and (min-width: 1200px) and (max-width: 1350px) {
+      footer p {
+        font-size: 2.2rem; } }
   footer h4 {
     color: #f5f3f3;
     font-size: 2.5rem;
-    font-weight: 500; }
+    font-weight: 500;
+    transition: transform .1s; }
+    footer h4:hover {
+      color: #343230;
+      transform: translateX(0.5px); }
     @media screen and (min-width: 280px) and (max-width: 361px) {
       footer h4 {
         font-size: 3.7rem; } }
@@ -280,48 +307,22 @@ footer {
         font-size: 2.2rem; } }
   footer h5 {
     color: #f5f3f3;
-    font-size: 2.5rem;
-    font-weight: 500;
-    transition: transform .1s; }
-    footer h5:hover {
-      color: #343230;
-      transform: translateX(0.5px); }
-    @media screen and (min-width: 280px) and (max-width: 361px) {
-      footer h5 {
-        font-size: 3.7rem; } }
-    @media screen and (max-width: 687px) and (min-width: 362px) {
-      footer h5 {
-        font-size: 4.7rem; } }
-    @media screen and (min-width: 688px) and (max-width: 900px) {
-      footer h5 {
-        font-size: 2.7rem; } }
-    @media screen and (min-width: 901px) and (max-width: 1110px) {
-      footer h5 {
-        font-size: 3rem; } }
-    @media screen and (min-width: 1111px) and (max-width: 1199px) {
-      footer h5 {
-        font-size: 2.3rem; } }
-    @media screen and (min-width: 1200px) and (max-width: 1350px) {
-      footer h5 {
-        font-size: 2.2rem; } }
-  footer h6 {
-    color: #f5f3f3;
     font-size: 1.5rem;
     font-weight: 500; }
     @media screen and (min-width: 280px) and (max-width: 361px) {
-      footer h6 {
+      footer h5 {
         font-size: 2rem; } }
     @media screen and (max-width: 687px) and (min-width: 362px) {
-      footer h6 {
+      footer h5 {
         font-size: 3rem; } }
     @media screen and (min-width: 688px) and (max-width: 900px) {
-      footer h6 {
+      footer h5 {
         font-size: 1.6rem; } }
     @media screen and (min-width: 901px) and (max-width: 1110px) {
-      footer h6 {
+      footer h5 {
         font-size: 1.8rem; } }
     @media screen and (min-width: 1111px) and (max-width: 1350px) {
-      footer h6 {
+      footer h5 {
         font-size: 1.5rem; } }
   footer ul {
     list-style-type: none; }
@@ -377,9 +378,9 @@ main div div div p {
 main section form fieldset {
   border-color: transparent; }
   main section form fieldset input {
-    color: #f5f3f3;
+    color: #151414;
     font-size: 2.7rem;
-    background-color: #A7D4D9;
+    background-color: #f5f3f3;
     opacity: .9;
     border: 2px solid #262626;
     border-bottom: #744d4d solid 1px; }
@@ -398,7 +399,7 @@ main section form fieldset {
       main section form fieldset label {
         font-size: 2.2rem; } }
   main section form fieldset select {
-    color: #f5f3f3;
+    color: #151414;
     height: 5rem;
     font-size: 2.5rem;
     cursor: pointer;
@@ -416,6 +417,7 @@ main section form fieldset {
       main section form fieldset select {
         height: 4rem; } }
   main section form fieldset section input {
+    color: #151414;
     border: 0.1rem solid #262626; }
     main section form fieldset section input:hover {
       animation-name: animateDiv;
@@ -574,5 +576,16 @@ main section table td {
 
 .titulos-tablas {
   color: #f5f3f3;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 400; }
+
+.fondo-talles {
+  background-color: #151414;
+  border-top: #5C7F7C solid 1.2px; }
+
+.fondo-tablas {
+  background-color: #151414;
+  border-top: #5C7F7C solid 1.2px; }
+
+.tablas-margin {
+  margin: 0; }
