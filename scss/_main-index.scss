@@ -1,6 +1,5 @@
 main{
     section{
-        margin-top: 10rem;
         border: solid $secondaryColor 1px;
         div{
             a{
@@ -38,4 +37,7 @@ main{
 }
 .fondo-sections{
     background-color: $white;
+}
+.margin-articles{
+    margin-top: 10rem;
 }

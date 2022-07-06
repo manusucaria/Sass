@@ -16,6 +16,11 @@ html {
 * {
   font-family: "Poor Richard", sans-serif; }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
 a {
   text-decoration: none; }
 
@@ -27,115 +32,109 @@ main div div img:hover {
   transform: scale(1.03);
   transition: transform 1.6s ease; }
 
-.fondo-titulos {
-  background-color: rgba(92, 127, 124, 0.8); }
-
-.fondo-parrafos {
-  background: linear-gradient(to right top, rgba(92, 127, 124, 0.7), rgba(87, 119, 116, 0.7)); }
-
 body {
   background-image: url(../assets/img/fondo2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
 
-nav {
+header {
   background: linear-gradient(to right top, #5C7F7C, #577774);
   opacity: .9;
   width: 100%;
   border-bottom: #262626 .1rem solid; }
-  nav h1 {
+  header h1 {
     color: #f5f3f3;
     font-family: "Dancing Script", sans-serif;
     font-size: 7rem;
     font-weight: 600; }
-    nav h1:hover {
+    header h1:hover {
       color: #343230;
       transform: translateX(0.5px); }
     @media screen and (max-width: 361px) {
-      nav h1 {
+      header h1 {
         font-size: 3.5rem; } }
     @media screen and (max-width: 450px) and (min-width: 362px) {
-      nav h1 {
+      header h1 {
         font-size: 5rem; } }
     @media screen and (max-width: 687px) and (min-width: 451px) {
-      nav h1 {
+      header h1 {
         font-size: 7rem; } }
     @media screen and (min-width: 688px) and (max-width: 900px) {
-      nav h1 {
+      header h1 {
         font-size: 4rem; } }
     @media screen and (min-width: 901px) and (max-width: 1350px) {
-      nav h1 {
+      header h1 {
         font-size: 7rem; } }
-  nav p {
+  header p {
     color: #f5f3f3;
     font-family: "Roboto, sans-serif";
     font-size: 2rem;
     font-weight: 300; }
-    nav p:hover {
+    header p:hover {
       color: #343230;
       transform: translateX(0.5px); }
     @media screen and (min-width: 280px) and (max-width: 361px) {
-      nav p {
+      header p {
         font-size: 2rem; } }
     @media screen and (max-width: 687px) and (min-width: 362px) {
-      nav p {
+      header p {
         font-size: 3rem; } }
     @media screen and (min-width: 688px) and (max-width: 900px) {
-      nav p {
+      header p {
         font-size: 1.6rem; } }
     @media screen and (min-width: 901px) and (max-width: 1110px) {
-      nav p {
+      header p {
         font-size: 1.8rem; } }
     @media screen and (min-width: 1111px) and (max-width: 1350px) {
-      nav p {
+      header p {
         font-size: 1.5rem; } }
-  nav ul {
+  header ul {
     list-style-type: none; }
-    nav ul li a p {
+    header ul li a p {
       color: #f5f3f3;
       font-family: "Poor Richard", sans-serif;
       font-weight: 400;
       font-size: 3rem;
       transition: transform .1s; }
       @media screen and (min-width: 280px) and (max-width: 361px) {
-        nav ul li a p {
+        header ul li a p {
           font-size: 2rem; } }
       @media screen and (max-width: 687px) and (min-width: 362px) {
-        nav ul li a p {
+        header ul li a p {
           font-size: 3rem; } }
       @media screen and (min-width: 688px) and (max-width: 900px) {
-        nav ul li a p {
+        header ul li a p {
           font-size: 1.6rem; } }
       @media screen and (min-width: 768px) and (max-width: 900px) {
-        nav ul li a p {
+        header ul li a p {
           font-size: 2rem; } }
       @media screen and (min-width: 901px) and (max-width: 1110px) {
-        nav ul li a p {
+        header ul li a p {
           font-size: 2.5rem; } }
       @media screen and (min-width: 1111px) and (max-width: 1350px) {
-        nav ul li a p {
+        header ul li a p {
           font-size: 2.2rem; } }
-      nav ul li a p:hover {
+      header ul li a p:hover {
         color: #343230;
         transform: translateX(0.5px); }
-  nav button {
+  header button {
     background-color: transparent;
     border-color: transparent; }
-    nav button img {
+    header button img {
       height: 30px;
       width: 30px;
       background-color: transparent;
       cursor: pointer;
       transition: transform .1s; }
-      nav button img:hover {
+      header button img:hover {
         transform: translateX(0.5px); }
       @media screen and (min-width: 688px) and (max-width: 1110px) {
-        nav button img {
+        header button img {
           height: 18px;
           width: 18px; } }
       @media screen and (min-width: 1111px) and (max-width: 1350px) {
-        nav button img {
+        header button img {
           height: 21px;
           width: 21px; } }
 
@@ -229,7 +228,6 @@ nav {
       width: 100px; } }
 
 main section {
-  margin-top: 10rem;
   border: solid #577774 1px; }
   main section div a h3 {
     color: #151414;
@@ -260,7 +258,11 @@ main section {
 .fondo-sections {
   background-color: #f5f3f3; }
 
+.margin-articles {
+  margin-top: 10rem; }
+
 footer {
+  margin-top: auto;
   background: linear-gradient(to right top, #5C7F7C, #577774);
   opacity: .9;
   width: 100%;
@@ -346,7 +348,8 @@ main div div div p {
   font-family: "Poor Richard", sans-serif; }
 
 .parrafos {
-  font-size: 2.7rem; }
+  font-size: 2.7rem;
+  margin: 1rem 0; }
   @media screen and (min-width: 280px) and (max-width: 361px) {
     .parrafos {
       font-size: 3.7rem; } }
@@ -367,7 +370,8 @@ main div div div p {
       font-size: 2.2rem; } }
 
 .precios {
-  font-size: 2rem; }
+  font-size: 2rem;
+  margin: 0.5rem 0; }
   @media screen and (min-width: 280px) and (max-width: 361px) {
     .precios {
       font-size: 2.1rem; } }
