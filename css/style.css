@@ -242,7 +242,7 @@ main section {
   main section div a h3 {
     font-size: 3rem;
     font-weight: 400;
-    color: #151414;
+    color: #577774;
     font-family: 'Helvetica';
     transition: transform .1s; }
     main section div a h3:hover {
@@ -428,11 +428,12 @@ main section form fieldset {
       main section form fieldset label {
         font-size: 2.2rem; } }
   main section form fieldset select {
+    font-size: 2.5rem;
+    font-weight: 400;
     color: #151414;
     height: 5rem;
-    font-size: 2.5rem;
     cursor: pointer;
-    background: linear-gradient(to right top, #5C7F7C, #577774);
+    background-color: #f5f3f3;
     opacity: .9;
     border: 2px solid #262626;
     border-bottom: #744d4d solid 1px; }
@@ -445,6 +446,10 @@ main section form fieldset {
     @media screen and (min-width: 1111px) and (max-width: 1350px) {
       main section form fieldset select {
         height: 4rem; } }
+    main section form fieldset select option {
+      font-size: 2.2rem;
+      font-weight: 300;
+      color: #151414; }
   main section form fieldset section input {
     color: #151414;
     border: 0.1rem solid #262626; }
@@ -467,6 +472,18 @@ main section form fieldset {
       transform: translateX(0.5px); }
     main section form fieldset section label input label {
       font-size: 2rem; }
+  main section form fieldset div input {
+    font-size: 2.3rem;
+    font-weight: 300;
+    color: #151414;
+    background-color: #f5f3f3;
+    border-radius: 15%; }
+  main section form fieldset div label {
+    font-size: 2.3rem;
+    font-weight: 300;
+    color: #151414;
+    background-color: #f5f3f3;
+    border-radius: 10%; }
 
 @keyframes animateDiv {
   0% {

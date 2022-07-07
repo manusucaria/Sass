@@ -4,7 +4,7 @@ main{
         div{
             a{
                 h3{
-                    @include texto(3rem,400,$black);
+                    @include texto(3rem,400,$secondaryColor);
                     font-family: 'Helvetica';
                     transition: transform .1s;
                     &:hover{

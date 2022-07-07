@@ -4,11 +4,15 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name=”description” content=”Prendas de ROPA ARTESANAL confeccionadas a medida.”>
+        <meta name=”author” content=”Clara Cadabra”>
+        <meta name=”keywords” content=”ropa, diseño, ropa de autor, mujer, ropa de mujer, buzos, remeras, pantalones, polleras, camperas, vestidos”>
+        <meta name=”copyright” content=”Conjuro Taller de Diseño”>
         <link rel="icon" href="../assets/img/icon.ico">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/animate.css">
-        <title>Conjuro Taller</title>
+        <title>Conjuro Contacto</title>
     </head>
     <body>
         <!--HEADER-->
@@ -53,10 +57,10 @@
                     <div class="justify-content-end align-self-start">
                         <div class="d-flex flex-row">
                             <a class="buotones-margin" href="../index.html">
-                                <img class="botones" src="../assets/img/home.png" alt="Home">
+                                <img class="botones" src="../assets/img/home.png" alt="Ir a Home">
                             </a>
                             <a class="botones-margin" href="carrito.html">
-                                <img class="botones" src="../assets/img/carrito.png" alt="Carrito">
+                                <img class="botones" src="../assets/img/carrito.png" alt="Ir a Carrito">
                             </a>
                             <form class="col d-none d-md-flex buscador" action="search">
                                 <input class="form-control barra-buscadora" type="search" placeholder="Search" aria-label="Search">
@@ -78,33 +82,37 @@
                         </div>
                         <fieldset class="mx-auto px-5 py-5 d-flex flex-column">
                             <label class="me-auto mb-3" for="name">Nombre y Apellido</label>
-                            <input class="w-100 px-1 py-2" type="text" id="name" placeholder="Ingresa tu Nombre" required="">
+                            <input class="w-100 px-2 py-2" type="text" id="name" placeholder="Ingresa tu Nombre" required="">
                             <label class="me-auto mt-5 mb-3" for="email">Dirección de Email</label>
-                            <input class="w-100 px-1 py-2" type="text" id="email" placeholder="email@gmail.com" required="">
+                            <input class="w-100 px-2 py-2" type="text" id="email" placeholder="email@gmail.com" required="">
                             <label class="me-auto mt-5 mb-3" for="telefono">Teléfono</label>
-                            <input class="w-100 px-1 py-2" type="phone" id="telefono"  placeholder="1156323465" required="">
+                            <input class="w-100 px-2 py-2" type="phone" id="telefono"  placeholder="1156323465" required="">
                             <label class="me-auto mt-5 mb-3" for="name">Ubicación</label>
-                            <select class="w-100 px-1 py-2" name="provincia" id="provincia">Ubicación
-                                <option value="buenos aires">Buenos Aires</option>
-                                <option value="cordoba">Cordoba</option>
-                                <option value="santa fe">Santa Fe</option>
-                                <option value="otras">Otras</option>
+                            <select class="w-100 px-2 py-2" name="provincia" id="provincia" aria-label="Ubicacion">
+                                <option selected>Buenos Aires</option>
+                                <option value="1">Córdoba</option>
+                                <option value="2">Santa Fe</option>
+                                <option value="3">Otra Provincia</option>
                             </select>
                             <label class="me-auto mt-5 mb-3" for="product">Pedido</label>
-                                <input class="w-100 px-1 py-2" type="text" id="product" placeholder="Ingresa el/los modelo/s que te interesan" required="">
-                            <div>
-                                <section class="d-flex flex-row justify-content-around align-items-start mt-4">
-                                    <input class="checkbox" type="checkbox" id="remera" placeholder="Remera">
-                                    <input class="checkbox" type="checkbox" id="pantalon" placeholder="Pantalon 2">
-                                    <input class="checkbox" type="checkbox" id="buzo" placeholder="Buzo 4">
-                                    <input class="checkbox" type="checkbox" id="campera" placeholder="Campera 2">
-                                </section>
-                                <section class="d-flex flex-row justify-content-around align-items-start opciones my-0">
-                                    <label for="remera">Remera</label>
-                                    <label for="pantalon">Pantalón</label>
-                                    <label for="buzo">Buzo</label>
-                                    <label for="campera">Campera</label>
-                                </section>
+                                <input class="w-100 px-2 py-2" type="text" id="product" placeholder="Ingresa el/los modelo/s que te interesan" required="">
+                            <div class="d-flex flex-row justify-content-around align-items-start mt-5">
+                                <div class="d-flex-flex-column">
+                                    <input type="checkbox" class="form-check-input" id="remera" autocomplete="off">
+                                    <label class="form-check-label" for="remera">Remera</label>
+                                </div>
+                                <div class="d-flex-flex-column">
+                                    <input type="checkbox" class="form-check-input" id="pantalon" autocomplete="off">
+                                    <label class="form-check-label" for="pantalon">Pantalon</label>
+                                </div>
+                                <div class="d-flex-flex-column">
+                                    <input type="checkbox" class="form-check-input" id="buzo" autocomplete="off">
+                                    <label class="form-check-label" for="buzo">Buzo</label>
+                                </div>
+                                <div class="d-flex-flex-column">
+                                    <input type="checkbox" class="form-check-input" id="campera" autocomplete="off">
+                                    <label class="form-check-label" for="campera">Campera</label>
+                                </div>
                             </div>
                             <section class="d-flex flex-row mt-5">
                                 <input class="w-50" type="submit" value="Enviar">
@@ -131,12 +139,12 @@
                     </li>
                     <li class="mx-3 mt-1">
                         <a href="https://facebook.com" target="_blank">
-                            <img class="logos-redes m-2" src="../assets/img/facebook.ico" alt="Facebook" title="Facebook">
+                            <img class="logos-redes m-2" src="../assets/img/facebook.ico" alt="Ir a Facebook" title="Facebook">
                         </a>
                     </li>
                     <li class="mx-3 mt-1">
                         <a href="https://www.instagram.com/conjuro_taller/" target="_blank">
-                            <img class="logos-redes m-2" src="../assets/img/instagram.ico" alt="Instagram" title="Instagram">
+                            <img class="logos-redes m-2" src="../assets/img/instagram.ico" alt="Ir a Instagram" title="Instagram">
                         </a>
                     </li>
                 </ul>

@@ -21,11 +21,10 @@ main section form fieldset{
         }
     }
     select{
-        color: $black;
+        @include texto(2.5rem,400,$black);
         height: 5rem;
-        font-size: 2.5rem;
         cursor: pointer;
-        background:linear-gradient(to right top, $mainColor, $secondaryColor);
+        background-color: $white;
         opacity: .9;
         border: 2px solid $borders;
         border-bottom: rgb(116, 77, 77) solid 1px;
@@ -37,6 +36,9 @@ main section form fieldset{
         }
         @include wide{
             height: 4rem;
+        }
+        option{
+            @include texto(2.2rem,300,$black);
         }
     }
     section{
@@ -68,6 +70,18 @@ main section form fieldset{
                 font-size: 2rem;
                 }
             }
+        }
+    }
+    div{
+        input{
+            @include texto (2.3rem,300,$black);
+            background-color: $white;
+            border-radius: 15%;
+        }
+        label{
+            @include texto (2.3rem,300,$black);
+            background-color: $white;
+            border-radius: 10%;
         }
     }
 }
