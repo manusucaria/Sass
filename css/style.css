@@ -44,10 +44,10 @@ header {
   width: 100%;
   border-bottom: #262626 .1rem solid; }
   header h1 {
-    color: #f5f3f3;
-    font-family: "Dancing Script", sans-serif;
     font-size: 7rem;
-    font-weight: 600; }
+    font-weight: 600;
+    color: #f5f3f3;
+    font-family: "Dancing Script", sans-serif; }
     header h1:hover {
       color: #343230;
       transform: translateX(0.5px); }
@@ -67,22 +67,25 @@ header {
       header h1 {
         font-size: 7rem; } }
   header p {
-    color: #f5f3f3;
-    font-family: "Roboto, sans-serif";
     font-size: 2rem;
-    font-weight: 300; }
+    font-weight: 300;
+    color: #f5f3f3;
+    font-family: "Roboto, sans-serif"; }
     header p:hover {
       color: #343230;
       transform: translateX(0.5px); }
-    @media screen and (min-width: 280px) and (max-width: 361px) {
+    @media screen and (max-width: 361px) {
       header p {
-        font-size: 2rem; } }
-    @media screen and (max-width: 687px) and (min-width: 362px) {
+        font-size: 1.7rem; } }
+    @media screen and (max-width: 450px) and (min-width: 362px) {
       header p {
-        font-size: 3rem; } }
+        font-size: 1.7rem; } }
+    @media screen and (max-width: 687px) and (min-width: 451px) {
+      header p {
+        font-size: 1.7rem; } }
     @media screen and (min-width: 688px) and (max-width: 900px) {
       header p {
-        font-size: 1.6rem; } }
+        font-size: 1.3rem; } }
     @media screen and (min-width: 901px) and (max-width: 1110px) {
       header p {
         font-size: 1.8rem; } }
@@ -92,18 +95,21 @@ header {
   header ul {
     list-style-type: none; }
     header ul li a p {
+      font-size: 3rem;
+      font-weight: 400;
       color: #f5f3f3;
       font-family: "Poor Richard", sans-serif;
-      font-weight: 400;
-      font-size: 3rem;
       transition: transform .1s; }
-      @media screen and (min-width: 280px) and (max-width: 361px) {
+      @media screen and (max-width: 361px) {
         header ul li a p {
           font-size: 2rem; } }
-      @media screen and (max-width: 687px) and (min-width: 362px) {
+      @media screen and (max-width: 450px) and (min-width: 362px) {
         header ul li a p {
           font-size: 3rem; } }
-      @media screen and (min-width: 688px) and (max-width: 900px) {
+      @media screen and (max-width: 687px) and (min-width: 451px) {
+        header ul li a p {
+          font-size: 3rem; } }
+      @media screen and (min-width: 688px) and (max-width: 767px) {
         header ul li a p {
           font-size: 1.6rem; } }
       @media screen and (min-width: 768px) and (max-width: 900px) {
@@ -196,7 +202,11 @@ header {
       height: 15px;
       width: 15px;
       margin-left: 1rem; } }
-  @media screen and (min-width: 688px) and (max-width: 1110px) {
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .botones {
+      height: 20px;
+      width: 20px; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
     .botones {
       height: 20px;
       width: 20px; } }
@@ -230,28 +240,29 @@ header {
 main section {
   border: solid #577774 1px; }
   main section div a h3 {
-    color: #151414;
-    font-size: 3.3rem;
+    font-size: 3rem;
     font-weight: 400;
+    color: #151414;
+    font-family: 'Helvetica';
     transition: transform .1s; }
     main section div a h3:hover {
       color: #4b4a49;
       transform: translateX(0.3px); }
-    @media screen and (min-width: 280px) and (max-width: 361px) {
-      main section div a h3 {
-        font-size: 3.3rem; } }
-    @media screen and (max-width: 687px) and (min-width: 362px) {
-      main section div a h3 {
-        font-size: 4.5rem; } }
-    @media screen and (min-width: 688px) and (max-width: 900px) {
-      main section div a h3 {
-        font-size: 2.5rem; } }
-    @media screen and (min-width: 901px) and (max-width: 1110px) {
+    @media screen and (max-width: 361px) {
       main section div a h3 {
         font-size: 3rem; } }
-    @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    @media screen and (max-width: 687px) and (min-width: 362px) {
+      main section div a h3 {
+        font-size: 4.2rem; } }
+    @media screen and (min-width: 688px) and (max-width: 900px) {
+      main section div a h3 {
+        font-size: 2.2rem; } }
+    @media screen and (min-width: 901px) and (max-width: 1110px) {
       main section div a h3 {
         font-size: 2.7rem; } }
+    @media screen and (min-width: 1111px) and (max-width: 1350px) {
+      main section div a h3 {
+        font-size: 2.4rem; } }
   main section article {
     background-color: #f5f3f3; }
 
@@ -269,10 +280,10 @@ footer {
   border-top: #262626 .1rem solid; }
   footer p {
     padding-top: 2rem;
-    color: #f5f3f3;
     font-size: 2.3rem;
-    font-weight: 500; }
-    @media screen and (min-width: 280px) and (max-width: 361px) {
+    font-weight: 500;
+    color: #f5f3f3; }
+    @media screen and (max-width: 361px) {
       footer p {
         font-size: 3.3rem; } }
     @media screen and (max-width: 687px) and (min-width: 362px) {
@@ -291,14 +302,14 @@ footer {
       footer p {
         font-size: 2.2rem; } }
   footer h4 {
-    color: #f5f3f3;
     font-size: 2.3rem;
     font-weight: 500;
+    color: #f5f3f3;
     transition: transform .1s; }
     footer h4:hover {
       color: #343230;
       transform: translateX(0.5px); }
-    @media screen and (min-width: 280px) and (max-width: 361px) {
+    @media screen and (max-width: 361px) {
       footer h4 {
         font-size: 3.3rem; } }
     @media screen and (max-width: 687px) and (min-width: 362px) {
@@ -317,10 +328,10 @@ footer {
       footer h4 {
         font-size: 2.2rem; } }
   footer h5 {
-    color: #f5f3f3;
     font-size: 1.5rem;
-    font-weight: 500; }
-    @media screen and (min-width: 280px) and (max-width: 361px) {
+    font-weight: 400;
+    color: #f5f3f3; }
+    @media screen and (max-width: 361px) {
       footer h5 {
         font-size: 2rem; } }
     @media screen and (max-width: 687px) and (min-width: 362px) {
@@ -349,8 +360,10 @@ main div div div p {
 
 .parrafos {
   font-size: 2.7rem;
+  font-weight: 400;
+  color: #151414;
   margin: 1rem 0; }
-  @media screen and (min-width: 280px) and (max-width: 361px) {
+  @media screen and (max-width: 361px) {
     .parrafos {
       font-size: 3.7rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
@@ -371,8 +384,10 @@ main div div div p {
 
 .precios {
   font-size: 2rem;
+  font-weight: 400;
+  color: #151414;
   margin: 0.5rem 0; }
-  @media screen and (min-width: 280px) and (max-width: 361px) {
+  @media screen and (max-width: 361px) {
     .precios {
       font-size: 2.1rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
@@ -391,8 +406,9 @@ main div div div p {
 main section form fieldset {
   border-color: transparent; }
   main section form fieldset input {
-    color: #151414;
     font-size: 2.7rem;
+    font-weight: 400;
+    color: #151414;
     background-color: #f5f3f3;
     opacity: .9;
     border: 2px solid #262626;
@@ -401,9 +417,9 @@ main section form fieldset {
       main section form fieldset input {
         font-size: 2.2rem; } }
   main section form fieldset label {
-    color: #f5f3f3;
     font-size: 2.7rem;
     font-weight: 400;
+    color: #f5f3f3;
     border-bottom: #744d4d solid 1px; }
     @media screen and (max-width: 1110px) {
       main section form fieldset label {
@@ -465,10 +481,10 @@ main section form fieldset {
     background: linear-gradient(to top, #5C7F7C, #A7D4D9); } }
 
 .titulo-carrito {
-  color: #f5f3f3;
   font-size: 3.7rem;
-  font-weight: 500; }
-  @media screen and (min-width: 280px) and (max-width: 361px) {
+  font-weight: 500;
+  color: #f5f3f3; }
+  @media screen and (max-width: 361px) {
     .titulo-carrito {
       font-size: 4.3rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
@@ -485,10 +501,10 @@ main section form fieldset {
       font-size: 3.3rem; } }
 
 .titulo-mapa {
-  color: #f5f3f3;
   font-size: 3rem;
-  font-weight: 500; }
-  @media screen and (min-width: 280px) and (max-width: 361px) {
+  font-weight: 500;
+  color: #f5f3f3; }
+  @media screen and (max-width: 361px) {
     .titulo-mapa {
       font-size: 3rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
@@ -520,10 +536,10 @@ main section form fieldset {
   cursor: pointer; }
 
 .titulo-nosotros {
-  color: #f5f3f3;
   font-size: 3.5rem;
-  font-weight: 400; }
-  @media screen and (min-width: 280px) and (max-width: 361px) {
+  font-weight: 400;
+  color: #f5f3f3; }
+  @media screen and (max-width: 361px) {
     .titulo-nosotros {
       font-size: 4.3rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
@@ -540,9 +556,9 @@ main section form fieldset {
       font-size: 3.3rem; } }
 
 .texto-nosotros {
-  color: #f5f3f3;
   font-size: 3rem;
-  font-weight: 300; }
+  font-weight: 300;
+  color: #f5f3f3; }
   @media screen and (max-width: 450px) {
     .texto-nosotros {
       font-size: 3.3rem; } }
@@ -561,17 +577,19 @@ main section form fieldset {
 
 main section table th {
   font-size: 2rem;
-  font-weight: 300; }
+  font-weight: 300;
+  color: #f5f3f3; }
 
 main section table td {
   font-size: 1.7rem;
-  font-weight: 200; }
+  font-weight: 200;
+  color: #f5f3f3; }
 
 .titulo-talles {
-  color: #f5f3f3;
   font-size: 3.5rem;
-  font-weight: 500; }
-  @media screen and (min-width: 280px) and (max-width: 361px) {
+  font-weight: 500;
+  color: #f5f3f3; }
+  @media screen and (max-width: 361px) {
     .titulo-talles {
       font-size: 4.3rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
@@ -588,9 +606,9 @@ main section table td {
       font-size: 3.3rem; } }
 
 .titulos-tablas {
-  color: #f5f3f3;
   font-size: 2.5rem;
-  font-weight: 400; }
+  font-weight: 400;
+  color: #f5f3f3; }
 
 .fondo-talles {
   background-color: #151414;

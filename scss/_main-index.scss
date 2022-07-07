@@ -4,28 +4,27 @@ main{
         div{
             a{
                 h3{
-                    color: $black;
-                    font-size: 3.3rem;
-                    font-weight: 400;
+                    @include texto(3rem,400,$black);
+                    font-family: 'Helvetica';
                     transition: transform .1s;
                     &:hover{
                         color: $hoversMain;
                         transform: translateX(.3px)
                     }
-                    @media screen and (min-width: 280px) and (max-width: 361px){
-                        font-size: 3.3rem;
-                    }
-                    @media screen and (max-width: 687px) and (min-width: 362px){
-                        font-size: 4.5rem;
-                    }
-                    @media screen and (min-width: 688px) and (max-width: 900px){
-                        font-size: 2.5rem;
-                    }
-                    @media screen and (min-width: 901px) and (max-width: 1110px){
+                    @include cel{
                         font-size: 3rem;
                     }
-                    @media screen and (min-width: 1111px) and (max-width: 1350px){
+                    @media screen and (max-width: 687px) and (min-width: 362px){
+                        font-size: 4.2rem;
+                    }
+                    @include tablet-xl{
+                        font-size: 2.2rem;
+                    }
+                    @include desktop{
                         font-size: 2.7rem;
+                    }
+                    @include wide{
+                        font-size: 2.4rem;
                     }
                 }
             }

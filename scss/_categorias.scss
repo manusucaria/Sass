@@ -3,18 +3,18 @@ main div div div p{
     font-family: $richard;
 }
 .parrafos{
-    font-size: 2.7rem;
+    @include texto(2.7rem,400,$black);
     margin: 1rem 0;
-    @media screen and (min-width: 280px) and (max-width: 361px){
+    @include cel{
         font-size: 3.7rem;
     }
     @media screen and (max-width: 687px) and (min-width: 362px){
         font-size: 4.7rem;
     }
-    @media screen and (min-width: 688px) and (max-width: 900px){
+    @include tablet-xl{
         font-size: 2.7rem;
     }
-    @media screen and (min-width: 901px) and (max-width: 1110px){
+    @include desktop{
         font-size: 3.2rem;
     }
     @media screen and (min-width: 1111px) and (max-width: 1199px){
@@ -25,21 +25,21 @@ main div div div p{
     }
 }
 .precios{
-    font-size: 2rem;
+    @include texto(2rem,400,$black);
     margin: 0.5rem 0;
-    @media screen and (min-width: 280px) and (max-width: 361px){
+    @include cel{
         font-size: 2.1rem;
     }
     @media screen and (max-width: 687px) and (min-width: 362px){
         font-size: 3.2rem;
     }
-    @media screen and (min-width: 688px) and (max-width: 900px){
+    @include tablet-xl{
         font-size: 1.8rem;
     }
-    @media screen and (min-width: 901px) and (max-width: 1110px){
+    @include desktop{
         font-size: 1.9rem;
     }
-    @media screen and (min-width: 1111px) and (max-width: 1350px){
+    @include wide{
         font-size: 1.7rem;
     }
 }

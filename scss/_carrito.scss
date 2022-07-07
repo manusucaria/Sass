@@ -1,8 +1,7 @@
 main section form fieldset{
     border-color: transparent;
     input{
-        color: $black;
-        font-size: 2.7rem;
+        @include texto(2.7rem, 400, $black);
         background-color: $white;
         opacity: .9;
         border: 2px solid $borders;
@@ -12,14 +11,12 @@ main section form fieldset{
         }
     }
     label{
-        color: $white;
-        font-size: 2.7rem;
-        font-weight: 400;
+        @include texto (2.7rem,400,$white);
         border-bottom: rgb(116, 77, 77) solid 1px;
         @media screen and (max-width: 1110px){
             font-size: 3.2rem;
         }
-        @media screen and (min-width: 1111px) and (max-width: 1350px){
+        @include wide{
             font-size: 2.2rem;
         }
     }
@@ -32,13 +29,13 @@ main section form fieldset{
         opacity: .9;
         border: 2px solid $borders;
         border-bottom: rgb(116, 77, 77) solid 1px;
-        @media screen and (max-width: 361px){
+        @include cel{
             height: 4rem;
         }
         @media screen and (max-width: 1110px) and (min-width: 362px){
             height: 5rem;
         }
-        @media screen and (min-width: 1111px) and (max-width: 1350px){
+        @include wide{
             height: 4rem;
         }
     }
@@ -82,42 +79,38 @@ main section form fieldset{
     100%{background:linear-gradient(to top, $mainColor, #A7D4D9)}
 }
 .titulo-carrito{
-    color: $white;
-    font-size: 3.7rem;
-    font-weight: 500;
-    @media screen and (min-width: 280px) and (max-width: 361px){
+    @include texto(3.7rem,500,$white);
+    @include cel{
         font-size: 4.3rem;
     }
     @media screen and (max-width: 687px) and (min-width: 362px){
         font-size: 5.3rem;
     }
-    @media screen and (min-width: 688px) and (max-width: 900px){
+    @include tablet-xl{
         font-size: 3.3rem;
     }
-    @media screen and (min-width: 901px) and (max-width: 1110px){
+    @include desktop{
         font-size: 3.8rem;
     }
-    @media screen and (min-width: 1111px) and (max-width: 1350px){
+    @include wide{
         font-size: 3.3rem;
     }
 }
 .titulo-mapa{
-    color: $white;
-    font-size: 3rem;
-    font-weight: 500;
-    @media screen and (min-width: 280px) and (max-width: 361px){
+    @include texto(3rem,500,$white);
+    @include cel{
         font-size: 3rem;
     }
     @media screen and (max-width: 687px) and (min-width: 362px){
         font-size: 4rem;
     }
-    @media screen and (min-width: 688px) and (max-width: 900px){
+    @include tablet-xl{
         font-size: 2.2rem;
     }
-    @media screen and (min-width: 901px) and (max-width: 1110px){
+    @include desktop{
         font-size: 2.5rem;
     }
-    @media screen and (min-width: 1111px) and (max-width: 1350px){
+    @include wide{
         font-size: 2rem;
     }
 }

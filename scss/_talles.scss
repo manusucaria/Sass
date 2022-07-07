@@ -2,40 +2,34 @@ main{
     section{
         table{
             th{
-                font-size: 2rem;
-                font-weight: 300;
+                @include texto(2rem,300,$white);
             }
             td{
-                font-size: 1.7rem;
-                font-weight: 200;
+                @include texto(1.7rem,200,$white);
             }
         }
     }
 }
 .titulo-talles{
-    color: $white;
-    font-size: 3.5rem;
-    font-weight: 500;
-    @media screen and (min-width: 280px) and (max-width: 361px){
+    @include texto(3.5rem,500,$white);
+    @include cel{
         font-size: 4.3rem;
     }
     @media screen and (max-width: 687px) and (min-width: 362px){
         font-size: 5.3rem;
     }
-    @media screen and (min-width: 688px) and (max-width: 900px){
+    @include tablet-xl{
         font-size: 3.3rem;
     }
-    @media screen and (min-width: 901px) and (max-width: 1110px){
+    @include desktop{
         font-size: 3.8rem;
     }
-    @media screen and (min-width: 1111px) and (max-width: 1350px){
+    @include wide{
         font-size: 3.3rem;
     }
 }
 .titulos-tablas{
-    color: $white;
-    font-size: 2.5rem;
-    font-weight: 400;
+    @include texto(2.5rem,400,$white);
 }
 .fondo-talles{
     background-color: $black;
