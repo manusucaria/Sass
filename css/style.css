@@ -530,7 +530,8 @@ main section form fieldset {
 
 .form-fondo {
   background-color: #5C7F7C;
-  border: solid #577774 3px; }
+  border: solid #577774 3px;
+  width: 65%; }
 
 .ubicacion {
   margin-top: 10rem; }
