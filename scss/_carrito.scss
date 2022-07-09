@@ -4,7 +4,7 @@ main section form fieldset{
         @include texto(2.7rem, 400, $black);
         background-color: $white;
         opacity: .9;
-        border: 2px solid $borders;
+        border: 1px solid $borders;
         border-bottom: rgb(116, 77, 77) solid 1px;
         @media screen and (max-width: 1350px){
             font-size: 2.2rem;
@@ -26,7 +26,7 @@ main section form fieldset{
         cursor: pointer;
         background-color: $white;
         opacity: .9;
-        border: 2px solid $borders;
+        border: 1px solid $borders;
         border-bottom: rgb(116, 77, 77) solid 1px;
         @include cel{
             height: 4rem;
@@ -44,7 +44,7 @@ main section form fieldset{
     section{
         input{
             color: $black;
-            border: .1rem solid $borders;
+            border: .5px solid $borders;
             &:hover{
                 animation-name: animateDiv;
                 animation-iteration-count: infinite;
@@ -52,23 +52,6 @@ main section form fieldset{
                 animation-duration: 5s;
                 animation-delay: 0s;
                 transform: translateX(.5px);
-            }
-        }
-        label{
-            input{
-                border: .1rem solid $borders;
-                border-bottom: rgb(116, 77, 77) solid 1px;
-                &:hover{
-                    animation-name: animateDiv;
-                    animation-iteration-count: infinite;
-                    animation-timing-function: linear;
-                    animation-duration: 5s;
-                    animation-delay: 0s;
-                    transform: translateX(.5px);
-                }
-            label{
-                font-size: 2rem;
-                }
             }
         }
     }

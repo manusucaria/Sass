@@ -1,10 +1,14 @@
+.fondo-carousel{
+    background-color: $white;
+    width:65%;
+}
 .titulo-nosotros{
-    @include texto(3.5rem,400,$white);
+    @include texto(3.5rem,400,$secondaryColor);
     @include cel{
         font-size: 4.3rem;
     }
     @media screen and (max-width: 687px) and (min-width: 362px){
-        font-size: 5.3rem;
+        font-size: 5rem;
     }
     @include tablet-xl{
         font-size: 3.3rem;
@@ -17,12 +21,12 @@
     }
 }
 .texto-nosotros{
-    @include texto(3rem,300,$white);
+    @include texto(3rem,300,$secondaryColor);
     @media screen and (max-width: 450px){
         font-size: 3.3rem;
     }
     @include tablet{
-        font-size: 3.8rem;
+        font-size: 3.5rem;
     }
     @include tablet-xl{
         font-size: 2.4rem;

@@ -5,8 +5,7 @@ footer{
     width: 100%;
     border-top: #262626 .1rem solid;
     p{
-        padding-top: 2rem;
-        @include texto(2.3rem,500,$white);
+        @include texto(2rem,500,$white);
         @include cel{
             font-size: 3.3rem;
         }
@@ -75,7 +74,7 @@ footer{
     }
 }
 .logos-redes{
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
     border-radius: 50%;
 }

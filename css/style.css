@@ -272,6 +272,9 @@ main section {
 .margin-articles {
   margin-top: 10rem; }
 
+.secciones {
+  width: 65%; }
+
 footer {
   margin-top: auto;
   background: linear-gradient(to right top, #5C7F7C, #577774);
@@ -279,8 +282,7 @@ footer {
   width: 100%;
   border-top: #262626 .1rem solid; }
   footer p {
-    padding-top: 2rem;
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: 500;
     color: #f5f3f3; }
     @media screen and (max-width: 361px) {
@@ -350,18 +352,14 @@ footer {
     list-style-type: none; }
 
 .logos-redes {
-  height: 5rem;
-  width: 5rem;
+  height: 4rem;
+  width: 4rem;
   border-radius: 50%; }
-
-main div div div p {
-  color: #151414;
-  font-family: "Poor Richard", sans-serif; }
 
 .parrafos {
   font-size: 2.7rem;
   font-weight: 400;
-  color: #151414;
+  color: #577774;
   margin: 1rem 0; }
   @media screen and (max-width: 361px) {
     .parrafos {
@@ -385,7 +383,7 @@ main div div div p {
 .precios {
   font-size: 2rem;
   font-weight: 400;
-  color: #151414;
+  color: #577774;
   margin: 0.5rem 0; }
   @media screen and (max-width: 361px) {
     .precios {
@@ -411,7 +409,7 @@ main section form fieldset {
     color: #151414;
     background-color: #f5f3f3;
     opacity: .9;
-    border: 2px solid #262626;
+    border: 1px solid #262626;
     border-bottom: #744d4d solid 1px; }
     @media screen and (max-width: 1350px) {
       main section form fieldset input {
@@ -435,7 +433,7 @@ main section form fieldset {
     cursor: pointer;
     background-color: #f5f3f3;
     opacity: .9;
-    border: 2px solid #262626;
+    border: 1px solid #262626;
     border-bottom: #744d4d solid 1px; }
     @media screen and (max-width: 361px) {
       main section form fieldset select {
@@ -452,7 +450,7 @@ main section form fieldset {
       color: #151414; }
   main section form fieldset section input {
     color: #151414;
-    border: 0.1rem solid #262626; }
+    border: 0.5px solid #262626; }
     main section form fieldset section input:hover {
       animation-name: animateDiv;
       animation-iteration-count: infinite;
@@ -460,18 +458,6 @@ main section form fieldset {
       animation-duration: 5s;
       animation-delay: 0s;
       transform: translateX(0.5px); }
-  main section form fieldset section label input {
-    border: 0.1rem solid #262626;
-    border-bottom: #744d4d solid 1px; }
-    main section form fieldset section label input:hover {
-      animation-name: animateDiv;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-      animation-duration: 5s;
-      animation-delay: 0s;
-      transform: translateX(0.5px); }
-    main section form fieldset section label input label {
-      font-size: 2rem; }
   main section form fieldset div input {
     font-size: 2.3rem;
     font-weight: 300;
@@ -552,16 +538,20 @@ main section form fieldset {
   width: 1.5rem;
   cursor: pointer; }
 
+.fondo-carousel {
+  background-color: #f5f3f3;
+  width: 65%; }
+
 .titulo-nosotros {
   font-size: 3.5rem;
   font-weight: 400;
-  color: #f5f3f3; }
+  color: #577774; }
   @media screen and (max-width: 361px) {
     .titulo-nosotros {
       font-size: 4.3rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .titulo-nosotros {
-      font-size: 5.3rem; } }
+      font-size: 5rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .titulo-nosotros {
       font-size: 3.3rem; } }
@@ -575,13 +565,13 @@ main section form fieldset {
 .texto-nosotros {
   font-size: 3rem;
   font-weight: 300;
-  color: #f5f3f3; }
+  color: #577774; }
   @media screen and (max-width: 450px) {
     .texto-nosotros {
       font-size: 3.3rem; } }
   @media screen and (max-width: 687px) and (min-width: 451px) {
     .texto-nosotros {
-      font-size: 3.8rem; } }
+      font-size: 3.5rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .texto-nosotros {
       font-size: 2.4rem; } }

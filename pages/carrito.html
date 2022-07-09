@@ -76,47 +76,49 @@
             <!-- inicia form -->
             <div class="row">
                 <section class="form-fondo mx-auto w-75">
-                    <form action="envio.php">
+                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdeCXWcGuWpwgaHeC8n4l-n3wgPrmTiB1TIo_P0GY84CtIi9w/formResponse" method="post">
                         <div class="d-flex">
                             <h3 class="mx-auto pt-4 titulo-carrito">Contacto</h3>
                         </div>
                         <fieldset class="mx-auto px-5 py-5 d-flex flex-column">
-                            <label class="me-auto mb-3" for="name">Nombre y Apellido</label>
-                            <input class="w-100 px-2 py-2" type="text" id="name" placeholder="Ingresa tu Nombre" required="">
-                            <label class="me-auto mt-5 mb-3" for="email">Dirección de Email</label>
-                            <input class="w-100 px-2 py-2" type="text" id="email" placeholder="email@gmail.com" required="">
-                            <label class="me-auto mt-5 mb-3" for="telefono">Teléfono</label>
-                            <input class="w-100 px-2 py-2" type="phone" id="telefono"  placeholder="1156323465" required="">
-                            <label class="me-auto mt-5 mb-3" for="name">Ubicación</label>
-                            <select class="w-100 px-2 py-2" name="provincia" id="provincia" aria-label="Ubicacion">
+                            <label class="me-auto mb-3">Nombre y Apellido</label>
+                            <input class="w-100 px-2 py-2" type="text" name="entry.1305494716" placeholder="Ingresa tu Nombre" required>
+                            <label class="me-auto mt-5 mb-3">Dirección de Email</label>
+                            <input class="w-100 px-2 py-2" type="text" name="entry.141436261" placeholder="email@gmail.com" required>
+                            <label class="me-auto mt-5 mb-3">Teléfono</label>
+                            <input class="w-100 px-2 py-2" type="phone" name="entry.561535156"  placeholder="1156323465" required>
+                            <label class="me-auto mt-5 mb-3">Ubicación</label>
+                            <select class="w-100 px-2 py-2" name="entry.1174120271" id="provincia" aria-label="Ubicacion" required>
                                 <option selected>Buenos Aires</option>
                                 <option value="1">Córdoba</option>
                                 <option value="2">Santa Fe</option>
                                 <option value="3">Otra Provincia</option>
                             </select>
                             <label class="me-auto mt-5 mb-3" for="product">Pedido</label>
-                                <input class="w-100 px-2 py-2" type="text" id="product" placeholder="Ingresa el/los modelo/s que te interesan" required="">
-                            <div class="d-flex flex-row justify-content-around align-items-start mt-5">
-                                <div class="d-flex-flex-column">
-                                    <input type="checkbox" class="form-check-input" id="remera" autocomplete="off">
-                                    <label class="form-check-label" for="remera">Remera</label>
+                            <input class="w-100 px-2 py-2" type="text" name="entry.622438233" id="product" placeholder="Ingresa el/los modelo/s que te interesan" required>
+                            <div class="d-flex justify-content-around align-items-start mt-5">
+                                <div class="d-flex flex-row-reverse">
+                                    <label class="form-check-label p-1" for="remera">Remera</label>
+                                    <input type="checkbox" class="form-check-input me-1" id="remera" value="Remera" autocomplete="on">
                                 </div>
-                                <div class="d-flex-flex-column">
-                                    <input type="checkbox" class="form-check-input" id="pantalon" autocomplete="off">
-                                    <label class="form-check-label" for="pantalon">Pantalon</label>
+                                <div class="d-flex flex-row-reverse">
+                                    <label class="form-check-label p-1" for="pantalon">Pantalon</label>
+                                    <input type="checkbox" class="form-check-input me-1" id="pantalon" value="Pantalon" autocomplete="off">
                                 </div>
-                                <div class="d-flex-flex-column">
-                                    <input type="checkbox" class="form-check-input" id="buzo" autocomplete="off">
-                                    <label class="form-check-label" for="buzo">Buzo</label>
+                                <div class="d-flex flex-row-reverse">
+                                    <label class="form-check-label p-1" for="buzo">Buzo</label>
+                                    <input type="checkbox" class="form-check-input me-1" id="buzo" value="Buzo" autocomplete="off">
                                 </div>
-                                <div class="d-flex-flex-column">
-                                    <input type="checkbox" class="form-check-input" id="campera" autocomplete="off">
-                                    <label class="form-check-label" for="campera">Campera</label>
+                                <div class="d-flex flex-row-reverse">
+                                    <label class="form-check-label p-1" for="campera">Campera</label>
+                                    <input type="checkbox" class="form-check-input me-1" id="campera" value="Campera" autocomplete="off">
                                 </div>
                             </div>
+                            <label class="me-auto mt-5 mb-3" for="product">Talle y Preferencias</label>
+                            <input class="w-100 px-2 py-2" type="text" name="entry.1229127110" id="product" placeholder="Decinos tu Talle y Preferencias" required>
                             <section class="d-flex flex-row mt-5">
-                                <input class="w-50" type="submit" value="Enviar">
-                                <input class="w-50" type="reset" value="Cancelar">
+                                <input class="w-50 me-1" type="submit" value="Enviar">
+                                <input class="w-50 ms-1" type="reset" value="Cancelar">
                             </section>
                         </fieldset>
                     </form>
@@ -131,28 +133,46 @@
             </div>
         </main>
         <!--FOOTER-->
-        <footer>
-            <div>
-                <ul class="d-flex justify-content-center mt-3">
-                    <li>
-                        <p>Seguinos</p>
-                    </li>
-                    <li class="mx-3 mt-1">
-                        <a href="https://facebook.com" target="_blank">
-                            <img class="logos-redes m-2" src="../assets/img/facebook.ico" alt="Ir a Facebook" title="Facebook">
+        <footer class="container-fluid">
+            <div class="row d-flex pt-3 pb-1">
+                <div class="col d-flex">
+                    <ul class="d-flex flex-column ms-auto my-auto">
+                        <li>
+                            <a href="nuevo.html"><p>Nuevo</p></a>
+                        </li>
+                        <li>
+                            <a href="remeras.html"><p>Remeras</p></a>
+                        </li>
+                        <li>
+                            <a href="pantalones.html"><p>Pantalones</p></a>
+                        </li>
+                    </ul>
+                    <ul class="d-flex flex-column me-auto my-auto">
+                        <li>
+                            <a href="buzos.html"><p>Buzos</p></a>
+                        </li>
+                        <li >
+                            <a href="camperas.html"><p>Camperas</p></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col d-flex flex-column">
+                    <div class="d-flex mx-auto my-auto">
+                        <h4 class="me-4">Seguinos</h4>
+                        <a class="me-2" href="https://facebook.com" target="_blank">
+                            <img class="logos-redes me-4" src="../assets/img/facebook.ico" alt="Ir a Facebook" title="Facebook">
                         </a>
-                    </li>
-                    <li class="mx-3 mt-1">
-                        <a href="https://www.instagram.com/conjuro_taller/" target="_blank">
-                            <img class="logos-redes m-2" src="../assets/img/instagram.ico" alt="Ir a Instagram" title="Instagram">
+                        <a class="me-2" href="https://www.instagram.com/conjuro_taller/" target="_blank">
+                            <img class="logos-redes" src="../assets/img/instagram.ico" alt="Ir a Instagram" title="Instagram">
                         </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="d-flex flex-column">
-                <a class="mx-auto mt-4" href="talles.html" target="_blank"><h4>Guía de Talles</h4></a>
-                <a class="mx-auto mt-4" href="nosotros.html" target="_blank"><h4>Sobre Nosotros</h4></a>
-                <h5 class="mx-auto mt-4 fondo-titulos">CONJURO DISEÑO Todos los Derechos Reservados</h5></small>
+                    </div>
+                    <h5 class="mx-auto mt-auto">CONJURO DISEÑO Todos los Derechos Reservados</h5></small>
+                </div>
+                <div class="col d-flex flex-column my-auto">
+                    <a class="mx-auto" href="talles.html" target="_blank"><p>Guía de Talles</p></a>
+                    <a class="mx-auto" href="nosotros.html" target="_blank"><p>Sobre Nosotros</p></a>
+                    <a class="mx-auto" href="carrito.html"><p>Contacto</p></a>
+                </div>
             </div>
         </footer>
     <script src="../js/bootstrap.bundle.min.js">

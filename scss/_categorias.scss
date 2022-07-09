@@ -1,9 +1,5 @@
-main div div div p{
-    color: $black;
-    font-family: $richard;
-}
 .parrafos{
-    @include texto(2.7rem,400,$black);
+    @include texto(2.7rem,400,$secondaryColor);
     margin: 1rem 0;
     @include cel{
         font-size: 3.7rem;
@@ -25,7 +21,7 @@ main div div div p{
     }
 }
 .precios{
-    @include texto(2rem,400,$black);
+    @include texto(2rem,400,$secondaryColor);
     margin: 0.5rem 0;
     @include cel{
         font-size: 2.1rem;

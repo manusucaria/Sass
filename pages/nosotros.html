@@ -73,36 +73,65 @@
         </header>
         <!--MAIN-->
         <main>
-            <div class="class d-flex">
-                <h2 class="titulo-nosotros mx-auto fondo-titulos">Sobre Conjuro</h2>
-            </div>
-            <div class="class d-flex">
-                <p class="texto-nosotros mx-auto mt-5 fondo-parrafos">En Conjuro todo es emoción en movimiento, en un taller artesanal de prendas únicas y personalizadas. <br>El diseño es nuestra herramienta para darle forma y contenido a lo cotidiano.</p>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade d-flex" data-bs-ride="carousel">
+                <div class="carousel-inner fondo-carousel mx-auto">
+                    <div class="m-3 fondo-texto-nosotros">
+                        <h2 class="titulo-nosotros text-center">Sobre Conjuro</h2>
+                        <p class="texto-nosotros mt-5">En Conjuro todo es emoción en movimiento, en un taller artesanal de prendas únicas y personalizadas. <br>El diseño es nuestra herramienta para darle forma y contenido a lo cotidiano.</p>
+                    </div>
+                    <div class="carousel-item active p-4">
+                        <img src="../assets/img/nosotros/1.webp" class="d-block w-100" alt="Fotos Nosotros Maquina de Coser">
+                    </div>
+                    <div class="carousel-item p-4">
+                        <img src="../assets/img/nosotros/2.webp" class="d-block w-100" alt="Fotos Nosotros Herramientas de Costura">
+                    </div>
+                    <div class="carousel-item p-4">
+                        <img src="../assets/img/nosotros/3.webp" class="d-block w-100" alt="Fotos Nosotros Herramientas de Costura 2">
+                    </div>
+                </div>
             </div>
         </main>
         <!--FOOTER-->
-        <footer>
-            <div>
-                <ul class="d-flex justify-content-center mt-3">
-                    <li>
-                        <p>Seguinos</p>
-                    </li>
-                    <li class="mx-3 mt-1">
-                        <a href="https://facebook.com" target="_blank">
-                            <img class="logos-redes m-2" src="../assets/img/facebook.ico" alt="Ir a Facebook" title="Facebook">
+        <<footer class="container-fluid">
+            <div class="row d-flex pt-3 pb-1">
+                <div class="col d-flex">
+                    <ul class="d-flex flex-column ms-auto my-auto">
+                        <li>
+                            <a href="nuevo.html"><p>Nuevo</p></a>
+                        </li>
+                        <li>
+                            <a href="remeras.html"><p>Remeras</p></a>
+                        </li>
+                        <li>
+                            <a href="pantalones.html"><p>Pantalones</p></a>
+                        </li>
+                    </ul>
+                    <ul class="d-flex flex-column me-auto my-auto">
+                        <li>
+                            <a href="buzos.html"><p>Buzos</p></a>
+                        </li>
+                        <li >
+                            <a href="camperas.html"><p>Camperas</p></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col d-flex flex-column">
+                    <div class="d-flex mx-auto my-auto">
+                        <h4 class="me-4">Seguinos</h4>
+                        <a class="me-2" href="https://facebook.com" target="_blank">
+                            <img class="logos-redes me-4" src="../assets/img/facebook.ico" alt="Ir a Facebook" title="Facebook">
                         </a>
-                    </li>
-                    <li class="mx-3 mt-1">
-                        <a href="https://www.instagram.com/conjuro_taller/" target="_blank">
-                            <img class="logos-redes m-2" src="../assets/img/instagram.ico" alt="Ir a Instagram" title="Instagram">
+                        <a class="me-2" href="https://www.instagram.com/conjuro_taller/" target="_blank">
+                            <img class="logos-redes" src="../assets/img/instagram.ico" alt="Ir a Instagram" title="Instagram">
                         </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="d-flex flex-column">
-                <a class="mx-auto mt-4" href="talles.html" target="_blank"><h4>Guía de Talles</h4></a>
-                <a class="mx-auto mt-4" href="nosotros.html"><h4>Sobre Nosotros</h4></a>
-                <h5 class="mx-auto mt-4 fondo-titulos">CONJURO DISEÑO Todos los Derechos Reservados</h5></small>
+                    </div>
+                    <h5 class="mx-auto mt-auto">CONJURO DISEÑO Todos los Derechos Reservados</h5></small>
+                </div>
+                <div class="col d-flex flex-column my-auto">
+                    <a class="mx-auto" href="talles.html" target="_blank"><p>Guía de Talles</p></a>
+                    <a class="mx-auto" href="nosotros.html"><p>Sobre Nosotros</p></a>
+                    <a class="mx-auto" href="carrito.html" target="_blank"><p>Contacto</p></a>
+                </div>
             </div>
         </footer>
     <script src="../js/bootstrap.bundle.min.js">
