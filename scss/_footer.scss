@@ -7,16 +7,16 @@ footer{
     p{
         @include texto(2rem,500,$white);
         @include cel{
-            font-size: 3.3rem;
+            font-size: 3rem;
         }
         @media screen and (max-width: 687px) and (min-width: 362px){
-            font-size: 4.3rem;
+            font-size: 3.3rem;
         }
         @include tablet-xl{
-            font-size: 2.3rem;
+            font-size: 2rem;
         }
         @include desktop{
-            font-size: 2.7rem;
+            font-size: 2.4rem;
         }
         @media screen and (min-width: 1111px) and (max-width: 1199px){
             font-size: 2rem;
@@ -33,16 +33,16 @@ footer{
             transform: translateX(.5px);
         }
         @include cel{
-            font-size: 3.3rem;
+            font-size: 3rem;
         }
         @media screen and (max-width: 687px) and (min-width: 362px){
-            font-size: 4.3rem;
+            font-size: 4rem;
         }
         @include tablet-xl{
-            font-size: 2.3rem;
+            font-size: 2rem;
         }
         @include desktop{
-            font-size: 2.7rem;
+            font-size: 2.4rem;
         }
         @media screen and (min-width: 1111px) and (max-width: 1199px){
             font-size: 2rem;
@@ -54,10 +54,10 @@ footer{
     h5{
         @include texto(1.5rem,400,$white);
         @include cel{
-            font-size: 2rem;
+            font-size: 1.7rem;
         }
         @media screen and (max-width: 687px) and (min-width: 362px){
-            font-size: 3rem;
+            font-size: 2rem;
         }
         @include tablet-xl{
             font-size: 1.6rem;
@@ -77,4 +77,9 @@ footer{
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
+}
+.copyright{
+    height: 25px;
+    width: 25px;
+    opacity: .5;
 }

@@ -287,16 +287,16 @@ footer {
     color: #f5f3f3; }
     @media screen and (max-width: 361px) {
       footer p {
-        font-size: 3.3rem; } }
+        font-size: 3rem; } }
     @media screen and (max-width: 687px) and (min-width: 362px) {
       footer p {
-        font-size: 4.3rem; } }
+        font-size: 3.3rem; } }
     @media screen and (min-width: 688px) and (max-width: 900px) {
       footer p {
-        font-size: 2.3rem; } }
+        font-size: 2rem; } }
     @media screen and (min-width: 901px) and (max-width: 1110px) {
       footer p {
-        font-size: 2.7rem; } }
+        font-size: 2.4rem; } }
     @media screen and (min-width: 1111px) and (max-width: 1199px) {
       footer p {
         font-size: 2rem; } }
@@ -313,16 +313,16 @@ footer {
       transform: translateX(0.5px); }
     @media screen and (max-width: 361px) {
       footer h4 {
-        font-size: 3.3rem; } }
+        font-size: 3rem; } }
     @media screen and (max-width: 687px) and (min-width: 362px) {
       footer h4 {
-        font-size: 4.3rem; } }
+        font-size: 4rem; } }
     @media screen and (min-width: 688px) and (max-width: 900px) {
       footer h4 {
-        font-size: 2.3rem; } }
+        font-size: 2rem; } }
     @media screen and (min-width: 901px) and (max-width: 1110px) {
       footer h4 {
-        font-size: 2.7rem; } }
+        font-size: 2.4rem; } }
     @media screen and (min-width: 1111px) and (max-width: 1199px) {
       footer h4 {
         font-size: 2rem; } }
@@ -335,10 +335,10 @@ footer {
     color: #f5f3f3; }
     @media screen and (max-width: 361px) {
       footer h5 {
-        font-size: 2rem; } }
+        font-size: 1.7rem; } }
     @media screen and (max-width: 687px) and (min-width: 362px) {
       footer h5 {
-        font-size: 3rem; } }
+        font-size: 2rem; } }
     @media screen and (min-width: 688px) and (max-width: 900px) {
       footer h5 {
         font-size: 1.6rem; } }
@@ -355,6 +355,11 @@ footer {
   height: 4rem;
   width: 4rem;
   border-radius: 50%; }
+
+.copyright {
+  height: 25px;
+  width: 25px;
+  opacity: .5; }
 
 .parrafos {
   font-size: 2.7rem;
