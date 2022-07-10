@@ -1,8 +1,8 @@
 main section form fieldset{
     border-color: transparent;
     input{
-        @include texto(2.7rem, 400, $black);
-        background-color: $white;
+        @include texto(2.7rem, 400, map-get($map:$paleta, $key: 'black'));
+        background-color: map-get($map:$paleta, $key: 'white');
         opacity: .9;
         border: 1px solid $borders;
         border-bottom: rgb(116, 77, 77) solid 1px;
@@ -11,7 +11,7 @@ main section form fieldset{
         }
     }
     label{
-        @include texto (2.7rem,400,$white);
+        @include texto (2.7rem,400,map-get($map:$paleta, $key: 'white'));
         border-bottom: rgb(116, 77, 77) solid 1px;
         @media screen and (max-width: 1110px){
             font-size: 3.2rem;
@@ -21,10 +21,10 @@ main section form fieldset{
         }
     }
     select{
-        @include texto(2.5rem,400,$black);
+        @include texto(2.5rem,400,map-get($map:$paleta, $key: 'black'));
         height: 5rem;
         cursor: pointer;
-        background-color: $white;
+        background-color: map-get($map:$paleta, $key: 'white');
         opacity: .9;
         border: 1px solid $borders;
         border-bottom: rgb(116, 77, 77) solid 1px;
@@ -38,12 +38,12 @@ main section form fieldset{
             height: 4rem;
         }
         option{
-            @include texto(2.2rem,300,$black);
+            @include texto(2.2rem,300,map-get($map:$paleta, $key: 'black'));
         }
     }
     section{
         input{
-            color: $black;
+            color: map-get($map:$paleta, $key: 'black');
             border: .5px solid $borders;
             &:hover{
                 animation-name: animateDiv;
@@ -55,28 +55,38 @@ main section form fieldset{
             }
         }
     }
+    textarea{
+        @include texto(2.7rem, 400, map-get($map:$paleta, $key: 'black'));
+        background-color: map-get($map:$paleta, $key: 'white');
+        opacity: .9;
+        border: 1px solid $borders;
+        border-bottom: rgb(116, 77, 77) solid 1px;
+        @media screen and (max-width: 1350px){
+            font-size: 2.2rem;
+        }
+    }
     div{
         input{
-            @include texto (2.3rem,300,$black);
-            background-color: $white;
+            @include texto (2.3rem,300,map-get($map:$paleta, $key: 'black'));
+            background-color: map-get($map:$paleta, $key: 'white');
             border-radius: 15%;
         }
         label{
-            @include texto (2.3rem,300,$black);
-            background-color: $white;
+            @include texto (2.3rem,300,map-get($map:$paleta, $key: 'black'));
+            background-color: map-get($map:$paleta, $key: 'white');
             border-radius: 10%;
         }
     }
 }
 @keyframes animateDiv{
-    0%{background:linear-gradient(to top $mainColor, #A7D4D9)}
-    25%{background:linear-gradient(to right, $secondaryColor, $mainColor)}
-    50%{background:linear-gradient(to bottom, $mainColor, $secondaryColor)}
-    75%{background:linear-gradient(to left, $secondaryColor, $mainColor)}
-    100%{background:linear-gradient(to top, $mainColor, #A7D4D9)}
+    0%{background:linear-gradient(to top map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'third'))}
+    25%{background:linear-gradient(to right, map-get($map:$paleta, $key: 'secondary'), map-get($map:$paleta, $key: 'main'))}
+    50%{background:linear-gradient(to bottom, map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'secondary'))}
+    75%{background:linear-gradient(to left, map-get($map:$paleta, $key: 'secondary'), map-get($map:$paleta, $key: 'main'))}
+    100%{background:linear-gradient(to top, map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'third'))}
 }
 .titulo-carrito{
-    @include texto(3.7rem,500,$white);
+    @include texto(3.7rem,500,map-get($map:$paleta, $key: 'white'));
     @include cel{
         font-size: 4.3rem;
     }
@@ -94,7 +104,7 @@ main section form fieldset{
     }
 }
 .titulo-mapa{
-    @include texto(3rem,500,$white);
+    @include texto(3rem,500,map-get($map:$paleta, $key: 'white'));
     @include cel{
         font-size: 3rem;
     }
@@ -112,8 +122,8 @@ main section form fieldset{
     }
 }
 .form-fondo{
-    background-color: $mainColor;
-    border: solid $secondaryColor 3px;
+    background-color: map-get($map:$paleta, $key: 'main');
+    border: solid map-get($map:$paleta, $key: 'secondary') 3px;
     width: 65%;
 }
 .ubicacion{
@@ -123,7 +133,6 @@ main section form fieldset{
     cursor: pointer;
 }
 .checkbox{
-    height: 1.5rem;
-    width: 1.5rem;
-    cursor: pointer;
+    @extend .botones-enviar;
+    border-radius: 0%;
 }

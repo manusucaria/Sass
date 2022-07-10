@@ -1,10 +1,10 @@
 main{
     section{
-        border: solid $secondaryColor 1px;
+        border: solid map-get($map:$paleta, $key: 'secondary') 1px;
         div{
             a{
                 h3{
-                    @include texto(3rem,400,$secondaryColor);
+                    @include texto(3rem,400,map-get($map:$paleta, $key: 'secondary'));
                     font-family: $richard;
                     transition: transform .1s;
                     &:hover{
@@ -30,12 +30,12 @@ main{
             }
         }
         article{
-            background-color: $white;
+            background-color: map-get($map:$paleta, $key: 'white');
         }
     }
 }
 .fondo-sections{
-    background-color: $white;
+    background-color: map-get($map:$paleta, $key: 'white');
 }
 .margin-articles{
     margin-top: 10rem;

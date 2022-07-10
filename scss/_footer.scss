@@ -1,11 +1,11 @@
 footer{
     margin-top: auto;
-    background:linear-gradient(to right top, $mainColor, $secondaryColor);
+    background:linear-gradient(to right top, map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'secondary'));
     opacity: .9;
     width: 100%;
     border-top: #262626 .1rem solid;
     p{
-        @include texto(2rem,500,$white);
+        @include texto(2rem,500,map-get($map:$paleta, $key: 'white'));
         @include cel{
             font-size: 3rem;
         }
@@ -26,7 +26,7 @@ footer{
         }
     }
     h4{
-        @include texto(2.3rem,500,$white);
+        @include texto(2.3rem,500,map-get($map:$paleta, $key: 'white'));
         transition: transform .1s;
         &:hover{
             color: $hovers;
@@ -52,7 +52,7 @@ footer{
         }
     }
     h5{
-        @include texto(1.5rem,400,$white);
+        @include texto(1.5rem,400,map-get($map:$paleta, $key: 'white'));
         @include cel{
             font-size: 1.7rem;
         }

@@ -1,11 +1,11 @@
 //NAV
 header{
-    background:linear-gradient(to right top, $mainColor, $secondaryColor);
+    background:linear-gradient(to right top, map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'secondary'));
     opacity: .9;
     width: 100%;
-    border-bottom: #262626 .1rem solid;
+    border-bottom: $borders .1rem solid;
     h1{
-        @include texto(7rem,600,$white);
+        @include texto(7rem,600,map-get($map:$paleta, $key: 'white'));
         font-family: $conjuro;
         &:hover{
             color: $hovers;
@@ -28,7 +28,7 @@ header{
         }
     }
     p{
-        @include texto(2rem,300,$white);
+        @include texto(2rem,300,map-get($map:$paleta, $key: 'white'));
         font-family: $subtitulo;
         &:hover{
             color: $hovers;
@@ -57,7 +57,7 @@ header{
         list-style-type: none;
         li a{
                 p{
-                    @include texto(3rem,400,$white);
+                    @include texto(3rem,400,map-get($map:$paleta, $key: 'white'));
                     font-family: $richard;
                     @include cel{
                         font-size: 2rem;

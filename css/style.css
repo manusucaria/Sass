@@ -42,7 +42,7 @@ header {
   background: linear-gradient(to right top, #5C7F7C, #577774);
   opacity: .9;
   width: 100%;
-  border-bottom: #262626 .1rem solid; }
+  border-bottom: #262626 0.1rem solid; }
   header h1 {
     font-size: 7rem;
     font-weight: 600;
@@ -463,6 +463,17 @@ main section form fieldset {
       animation-duration: 5s;
       animation-delay: 0s;
       transform: translateX(0.5px); }
+  main section form fieldset textarea {
+    font-size: 2.7rem;
+    font-weight: 400;
+    color: #151414;
+    background-color: #f5f3f3;
+    opacity: .9;
+    border: 1px solid #262626;
+    border-bottom: #744d4d solid 1px; }
+    @media screen and (max-width: 1350px) {
+      main section form fieldset textarea {
+        font-size: 2.2rem; } }
   main section form fieldset div input {
     font-size: 2.3rem;
     font-weight: 300;
@@ -536,13 +547,11 @@ main section form fieldset {
 .ubicacion {
   margin-top: 10rem; }
 
-.botones-enviar {
+.botones-enviar, .checkbox {
   cursor: pointer; }
 
 .checkbox {
-  height: 1.5rem;
-  width: 1.5rem;
-  cursor: pointer; }
+  border-radius: 0%; }
 
 .fondo-carousel {
   background-color: #f5f3f3;
@@ -633,3 +642,6 @@ main section table td {
 
 .tablas-margin {
   margin: 0; }
+
+.width-tabla {
+  width: 65%; }

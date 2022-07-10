@@ -18,8 +18,8 @@
         <!--HEADER-->
         <header>
             <nav class="navbar navbar-expand-md sticky-top">
-                <div class="container-fluid d-flex flex-row">
-                    <div class="navbar-brand simbolo align-self-center">
+                <div class="container-fluid d-flex">
+                    <div class="navbar-brand simbolo align-self-center me-auto">
                         <a class="navbar-brand" href="../index.html">
                             <img class="logo" src="../assets/img/logo.jpeg" alt="Logo de Conjuro" title="Conjuro">
                         </a>
@@ -35,7 +35,7 @@
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="opciones">
-                                <ul class="navbar-nav d-flex flex-row">
+                                <ul class="navbar-nav d-flex">
                                     <li class="nav-item mx-5">
                                         <a class="nav-link" href="nuevo.html"><p>Nuevo</p></a>
                                     </li>
@@ -54,15 +54,15 @@
                                 </ul>
                             </div>
                     </div>
-                    <div class="justify-content-end align-self-start">
-                        <div class="d-flex flex-row">
+                    <div class="align-self-start ms-auto">
+                        <div class="d-flex">
                             <a class="buotones-margin" href="../index.html">
-                                <img class="botones" src="../assets/img/home.png" alt="Ir a Home">
+                                <img class="botones" src="../assets/img/home.png" alt="Icono de Home">
                             </a>
                             <a class="botones-margin" href="carrito.html">
-                                <img class="botones" src="../assets/img/carrito.png" alt="Ir a Carrito">
+                                <img class="botones" src="../assets/img/carrito.png" alt="Icono de Carrito">
                             </a>
-                            <form class="col d-none d-md-flex buscador" action="search">
+                            <form class="d-none d-md-flex buscador" action="search">
                                 <input class="form-control barra-buscadora" type="search" placeholder="Search" aria-label="Search">
                                 <button type="submit"><img src="../assets/img/buscar.png" alt="Buscar"></button>
                             </form>
@@ -98,27 +98,27 @@
                             <input class="w-100 px-2 py-2" type="text" name="entry.622438233" id="product" placeholder="Ingresa el/los modelo/s que te interesan" required>
                             <div class="d-flex justify-content-around align-items-start mt-5">
                                 <div class="d-flex flex-row-reverse">
-                                    <label class="form-check-label p-1" for="remera">Remera</label>
-                                    <input type="checkbox" class="form-check-input me-1" id="remera" value="Remera" autocomplete="on">
+                                    <label class="form-check-label p-1 checkbox" for="remera">Remera</label>
+                                    <input type="checkbox" class="form-check-input me-1 checkbox" id="remera" value="Remera" autocomplete="on">
                                 </div>
                                 <div class="d-flex flex-row-reverse">
-                                    <label class="form-check-label p-1" for="pantalon">Pantalon</label>
-                                    <input type="checkbox" class="form-check-input me-1" id="pantalon" value="Pantalon" autocomplete="off">
+                                    <label class="form-check-label p-1 checkbox" for="pantalon">Pantalon</label>
+                                    <input type="checkbox" class="form-check-input me-1 checkbox" id="pantalon" value="Pantalon" autocomplete="off">
                                 </div>
                                 <div class="d-flex flex-row-reverse">
-                                    <label class="form-check-label p-1" for="buzo">Buzo</label>
-                                    <input type="checkbox" class="form-check-input me-1" id="buzo" value="Buzo" autocomplete="off">
+                                    <label class="form-check-label p-1 checkbox" for="buzo">Buzo</label>
+                                    <input type="checkbox" class="form-check-input me-1 checkbox" id="buzo" value="Buzo" autocomplete="off">
                                 </div>
                                 <div class="d-flex flex-row-reverse">
-                                    <label class="form-check-label p-1" for="campera">Campera</label>
-                                    <input type="checkbox" class="form-check-input me-1" id="campera" value="Campera" autocomplete="off">
+                                    <label class="form-check-label p-1 checkbox" for="campera">Campera</label>
+                                    <input type="checkbox" class="form-check-input me-1 checkbox" id="campera" value="Campera" autocomplete="off">
                                 </div>
                             </div>
                             <label class="me-auto mt-5 mb-3" for="product">Talle y Preferencias</label>
-                            <input class="w-100 px-2 py-2" type="text" name="entry.1229127110" id="product" placeholder="Decinos tu Talle y Preferencias" required>
+                            <textarea class="w-100 px-2 py-2" name="entry.1229127110" id="product" placeholder="Decinos tu Talle y Preferencias" cols="20" rows="4" required></textarea>
                             <section class="d-flex flex-row mt-5">
-                                <input class="w-50 me-1" type="submit" target="_blank" value="Enviar">
-                                <input class="w-50 ms-1" type="reset" value="Cancelar">
+                                <input class="w-50 me-1 botones-enviar" type="submit" target="_blank" value="Enviar">
+                                <input class="w-50 ms-1 botones-enviar" type="reset" value="Cancelar">
                             </section>
                         </fieldset>
                     </form>
