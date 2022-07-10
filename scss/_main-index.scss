@@ -5,7 +5,7 @@ main{
             a{
                 h3{
                     @include texto(3rem,400,$secondaryColor);
-                    font-family: 'Helvetica';
+                    font-family: $richard;
                     transition: transform .1s;
                     &:hover{
                         color: $hoversMain;

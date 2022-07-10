@@ -243,7 +243,7 @@ main section {
     font-size: 3rem;
     font-weight: 400;
     color: #577774;
-    font-family: 'Helvetica';
+    font-family: "Poor Richard", sans-serif;
     transition: transform .1s; }
     main section div a h3:hover {
       color: #4b4a49;
@@ -357,8 +357,8 @@ footer {
   border-radius: 50%; }
 
 .copyright {
-  height: 25px;
-  width: 25px;
+  height: 2.5rem;
+  width: 2.5rem;
   opacity: .5; }
 
 .parrafos {
