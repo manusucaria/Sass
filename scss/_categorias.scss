@@ -1,5 +1,5 @@
 .parrafos{
-    @include texto(2.7rem,400,map-get($map:$paleta, $key: 'secondary'));
+    @include texto(2.4rem,400,map-get($map:$paleta, $key: 'secondary'));
     margin: 1rem 0;
     @include cel{
         font-size: 3.7rem;
@@ -11,17 +11,17 @@
         font-size: 2.7rem;
     }
     @include desktop{
-        font-size: 3.2rem;
-    }
-    @media screen and (min-width: 1111px) and (max-width: 1199px){
         font-size: 2.7rem;
     }
+    @media screen and (min-width: 1111px) and (max-width: 1199px){
+        font-size: 2.1rem;
+    }
     @media screen and (min-width: 1200px) and (max-width: 1350px){
-        font-size: 2.2rem;
+        font-size: 2.1rem;
     }
 }
 .precios{
-    @include texto(2rem,400,map-get($map:$paleta, $key: 'secondary'));
+    @include texto(1.9rem,400,map-get($map:$paleta, $key: 'secondary'));
     margin: 0.5rem 0;
     @include cel{
         font-size: 2.1rem;

@@ -5,50 +5,54 @@ footer{
     width: 100%;
     border-top: #262626 .1rem solid;
     p{
-        @include texto(2rem,500,map-get($map:$paleta, $key: 'white'));
+        @include texto(1.9rem,500,map-get($map:$paleta, $key: 'white'));
         @include cel{
-            font-size: 3rem;
+            font-size: 2.5rem;
         }
         @media screen and (max-width: 687px) and (min-width: 362px){
-            font-size: 3.3rem;
+            font-size: 3.4rem;
         }
         @include tablet-xl{
-            font-size: 2rem;
+            font-size: 2.1rem;
         }
         @include desktop{
-            font-size: 2.4rem;
+            font-size: 2.1rem;
         }
         @media screen and (min-width: 1111px) and (max-width: 1199px){
-            font-size: 2rem;
+            font-size: 1.7rem;
         }
         @media screen and (min-width: 1200px) and (max-width: 1350px){
-            font-size: 2.2rem;
+            font-size: 1.8rem;
         }
     }
     h4{
-        @include texto(2.3rem,500,map-get($map:$paleta, $key: 'white'));
+        @include texto(2.1rem,500,map-get($map:$paleta, $key: 'white'));
         transition: transform .1s;
         &:hover{
             color: $hovers;
             transform: translateX(.5px);
         }
         @include cel{
-            font-size: 3rem;
+            font-size: 2.8rem;
+            display: none;
         }
         @media screen and (max-width: 687px) and (min-width: 362px){
-            font-size: 4rem;
+            font-size: 3.8rem;
+            display: none;
         }
         @include tablet-xl{
             font-size: 2rem;
+            display: none;
         }
         @include desktop{
-            font-size: 2.4rem;
+            font-size: 2.2rem;
+            display: none;
         }
         @media screen and (min-width: 1111px) and (max-width: 1199px){
             font-size: 2rem;
         }
         @media screen and (min-width: 1200px) and (max-width: 1350px){
-            font-size: 2.2rem;
+            font-size: 2rem;
         }
     }
     h5{

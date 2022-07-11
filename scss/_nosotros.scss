@@ -3,38 +3,38 @@
     width:65%;
 }
 .titulo-nosotros{
-    @include texto(3.5rem,400,map-get($map:$paleta, $key: 'secondary'));
+    @include texto(3rem,400,map-get($map:$paleta, $key: 'secondary'));
     @include cel{
-        font-size: 4.3rem;
+        font-size: 4rem;
     }
     @media screen and (max-width: 687px) and (min-width: 362px){
-        font-size: 5rem;
+        font-size: 4.7rem;
     }
     @include tablet-xl{
-        font-size: 3.3rem;
+        font-size: 3rem;
     }
     @include desktop{
-        font-size: 3.8rem;
+        font-size: 3.5rem;
     }
     @include wide{
-        font-size: 3.3rem;
+        font-size: 3rem;
     }
 }
 .texto-nosotros{
-    @include texto(3rem,300,map-get($map:$paleta, $key: 'secondary'));
+    @include texto(2.7rem,300,map-get($map:$paleta, $key: 'secondary'));
     @media screen and (max-width: 450px){
-        font-size: 3.3rem;
+        font-size: 3.1rem;
     }
     @include tablet{
-        font-size: 3.5rem;
+        font-size: 3.3rem;
     }
     @include tablet-xl{
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
     @include desktop{
-        font-size: 2.6rem;
+        font-size: 2.4rem;
     }
     @include wide{
-        font-size: 2.3rem;
+        font-size: 2.1rem;
     }
 }

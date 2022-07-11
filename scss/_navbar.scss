@@ -5,26 +5,26 @@ header{
     width: 100%;
     border-bottom: $borders .1rem solid;
     h1{
-        @include texto(7rem,600,map-get($map:$paleta, $key: 'white'));
+        @include texto(6rem,600,map-get($map:$paleta, $key: 'white'));
         font-family: $conjuro;
         &:hover{
             color: $hovers;
             transform: translateX(.5px);
         }
         @include cel{
-            font-size: 3.5rem;
+            font-size: 5rem;
         }
         @include smart{
             font-size: 5rem;
         }
         @include tablet{
-            font-size: 7rem;
+            font-size: 6rem;
         }
         @include tablet-xl{
             font-size: 4rem;
         }
         @media screen and (min-width: 901px) and (max-width: 1350px){
-            font-size: 7rem;
+            font-size: 6rem;
         }
     }
     p{
@@ -35,16 +35,16 @@ header{
             transform: translateX(.5px);
         }
         @include cel{
-            font-size: 1.7rem;
+            font-size: 1.9rem;
         }
         @include smart{
-            font-size: 1.7rem;
+            font-size: 1.9rem;
         }
         @include tablet{
-            font-size: 1.7rem;
+            font-size: 1.9rem;
         }
         @include tablet-xl{
-            font-size: 1.3rem;
+            font-size: 1.5rem;
         }
         @include desktop{
             font-size: 1.8rem;
@@ -57,10 +57,10 @@ header{
         list-style-type: none;
         li a{
                 p{
-                    @include texto(3rem,400,map-get($map:$paleta, $key: 'white'));
+                    @include texto(2.7rem,400,map-get($map:$paleta, $key: 'white'));
                     font-family: $richard;
                     @include cel{
-                        font-size: 2rem;
+                        font-size: 2.3rem;
                     }
                     @include smart{
                         font-size: 3rem;
@@ -157,18 +157,18 @@ header{
         transform: translateX(.5px);
     }
     @include cel{
-        height: 13px;
-        width: 13px;
+        height: 15px;
+        width: 15px;
         margin-left: 1rem;;
     }
     @include smart{
-        height: 12px;
-        width: 12px;
+        height: 14px;
+        width: 14px;
         margin-left: 1rem;
     }
     @include tablet{
-        height: 15px;
-        width: 15px;
+        height: 17px;
+        width: 17px;
         margin-left: 1rem;
     }
     @include tablet-xl{
