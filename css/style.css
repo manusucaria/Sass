@@ -285,6 +285,9 @@ footer {
     font-size: 1.9rem;
     font-weight: 500;
     color: #f5f3f3; }
+    footer p:hover {
+      color: #343230;
+      transform: translateX(0.5px); }
     @media screen and (max-width: 361px) {
       footer p {
         font-size: 2.5rem; } }
@@ -306,11 +309,7 @@ footer {
   footer h4 {
     font-size: 2.1rem;
     font-weight: 500;
-    color: #f5f3f3;
-    transition: transform .1s; }
-    footer h4:hover {
-      color: #343230;
-      transform: translateX(0.5px); }
+    color: #f5f3f3; }
     @media screen and (max-width: 361px) {
       footer h4 {
         font-size: 2.8rem;
@@ -359,6 +358,8 @@ footer {
   height: 4rem;
   width: 4rem;
   border-radius: 50%; }
+  .logos-redes:hover {
+    transform: translateX(0.5px); }
 
 .copyright {
   height: 2.5rem;

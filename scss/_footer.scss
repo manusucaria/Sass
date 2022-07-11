@@ -6,6 +6,10 @@ footer{
     border-top: #262626 .1rem solid;
     p{
         @include texto(1.9rem,500,map-get($map:$paleta, $key: 'white'));
+        &:hover{
+            color: $hovers;
+            transform: translateX(.5px);
+        }
         @include cel{
             font-size: 2.5rem;
         }
@@ -27,11 +31,6 @@ footer{
     }
     h4{
         @include texto(2.1rem,500,map-get($map:$paleta, $key: 'white'));
-        transition: transform .1s;
-        &:hover{
-            color: $hovers;
-            transform: translateX(.5px);
-        }
         @include cel{
             font-size: 2.8rem;
             display: none;
@@ -81,6 +80,9 @@ footer{
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
+    &:hover{
+        transform: translateX(.5px);
+    }
 }
 .copyright{
     height: 2.5rem;
