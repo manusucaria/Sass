@@ -5,7 +5,7 @@ main section form fieldset{
         background-color: map-get($map:$paleta, $key: 'white');
         opacity: .9;
         border: 1px solid $borders;
-        border-bottom: rgb(116, 77, 77) solid 1px;
+        border-bottom: rgb(227, 21, 21) solid 1px;
         @include cel{
             font-size: 3.7rem;
         }
@@ -24,7 +24,7 @@ main section form fieldset{
     }
     label{
         @include texto (2.7rem,400,map-get($map:$paleta, $key: 'white'));
-        border-bottom: rgb(116, 77, 77) solid 1px;
+        opacity: .9;
         @include cel{
             font-size: 3.7rem;
         }
@@ -48,7 +48,7 @@ main section form fieldset{
         background-color: map-get($map:$paleta, $key: 'white');
         opacity: .9;
         border: 1px solid $borders;
-        border-bottom: rgb(116, 77, 77) solid 1px;
+        border-bottom: rgb(227, 21, 21) solid 1px;
         @include cel{
             font-size: 3.7rem;
         }
@@ -102,7 +102,7 @@ main section form fieldset{
         background-color: map-get($map:$paleta, $key: 'white');
         opacity: .9;
         border: 1px solid $borders;
-        border-bottom: rgb(116, 77, 77) solid 1px;
+        border-bottom: rgb(227, 21, 21) solid 1px;
         @media screen and (max-width: 1350px){
             font-size: 2.2rem;
         }
@@ -192,4 +192,16 @@ main section form fieldset{
 .checkbox{
     @extend .botones-enviar;
     border-radius: 0%;
+}
+@keyframes animateCarrito{
+    0%{transform: translateX(0px);}
+    50%{transform: translateX(5px);}
+    100%{transform: translateX(0px);}
+}
+.animation-carrito{
+    animation-name: animateCarrito;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-delay: 0s;
 }

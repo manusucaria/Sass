@@ -8265,7 +8265,7 @@ main section form fieldset {
     background-color: #f5f3f3;
     opacity: .9;
     border: 1px solid #262626;
-    border-bottom: #744d4d solid 1px; }
+    border-bottom: #e31515 solid 1px; }
     @media screen and (max-width: 361px) {
       main section form fieldset input {
         font-size: 3.7rem; } }
@@ -8285,7 +8285,7 @@ main section form fieldset {
     font-size: 2.7rem;
     font-weight: 400;
     color: #f5f3f3;
-    border-bottom: #744d4d solid 1px; }
+    opacity: .9; }
     @media screen and (max-width: 361px) {
       main section form fieldset label {
         font-size: 3.7rem; } }
@@ -8310,7 +8310,7 @@ main section form fieldset {
     background-color: #f5f3f3;
     opacity: .9;
     border: 1px solid #262626;
-    border-bottom: #744d4d solid 1px; }
+    border-bottom: #e31515 solid 1px; }
     @media screen and (max-width: 361px) {
       main section form fieldset select {
         font-size: 3.7rem; } }
@@ -8362,7 +8362,7 @@ main section form fieldset {
     background-color: #f5f3f3;
     opacity: .9;
     border: 1px solid #262626;
-    border-bottom: #744d4d solid 1px; }
+    border-bottom: #e31515 solid 1px; }
     @media screen and (max-width: 1350px) {
       main section form fieldset textarea {
         font-size: 2.2rem; } }
@@ -8459,6 +8459,21 @@ main section form fieldset {
 
 .checkbox {
   border-radius: 0%; }
+
+@keyframes animateCarrito {
+  0% {
+    transform: translateX(0px); }
+  50% {
+    transform: translateX(5px); }
+  100% {
+    transform: translateX(0px); } }
+
+.animation-carrito {
+  animation-name: animateCarrito;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-duration: 1s;
+  animation-delay: 0s; }
 
 .w-carousel {
   width: 65%; }
