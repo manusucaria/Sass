@@ -18,7 +18,9 @@ main{
     margin-top: 10rem;
     margin-bottom: 10rem;
 }
-main div div img:hover{
-    transform: scale(1.03);
+main img{
     transition: transform 1.6s ease;
+    &:hover{
+        transform: scale(1.03);
+    }
 }

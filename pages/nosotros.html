@@ -9,6 +9,7 @@
         <meta name=”keywords” content=”ropa, diseño, ropa de autor, mujer, ropa de mujer, buzos, remeras, pantalones, polleras, camperas, vestidos”>
         <meta name=”copyright” content=”Conjuro Taller de Diseño”>
         <link rel="icon" href="../assets/img/icon.ico">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/animate.css">
         <title>Acerca de Conjuro</title>
@@ -72,25 +73,29 @@
         </header>
         <!--MAIN-->
         <main>
-            <div id="carouselExampleSlidesOnly" class="carousel slide d-flex justify-content-center" data-bs-ride="carousel">
-                <div class="carousel-inner fondo-carousel">
-                    <div class="m-3">
-                        <h2 class="titulo-nosotros text-center">Sobre Conjuro</h2>
-                        <p class="texto-nosotros mt-5 text-center">En Conjuro todo es emoción en movimiento, en un taller artesanal de prendas únicas y personalizadas. <br>El diseño es nuestra herramienta para darle forma y contenido a lo cotidiano.</p>
-                    </div>
-                    <div class="carousel-item p-4">
-                        <img src="../assets/img/nosotros/nosotros4.webp" class="d-block w-100" alt="Fotos Nosotros Taller Conjuro">
-                    </div>
-                    <div class="carousel-item p-4">
-                        <img src="../assets/img/nosotros/nosotros1.webp" class="d-block w-100" alt="Fotos Nosotros Herramientas de Costura">
-                    </div>
-                    <div class="carousel-item p-4">
-                        <img src="../assets/img/nosotros/nosotros2.webp" class="d-block w-100" alt="Fotos Nosotros Herramientas de Costura 2">
-                    </div>
-                    <div class="carousel-item active p-4">
-                        <img src="../assets/img/nosotros/nosotros3.webp" class="d-block w-100" alt="Fotos Nosotros Herramientas de Costura 3">
-                    </div>
+            <div class="d-flex card w-carousel mx-auto">
+                <div class="card-body">
+                    <h2 class="titulo-nosotros text-center mt-3">Sobre Conjuro</h2>
+                    <p class="texto-nosotros mt-4 text-center">En Conjuro todo es emoción en movimiento, en un taller artesanal de prendas únicas y personalizadas. <br>El diseño es nuestra herramienta para darle forma y contenido a lo cotidiano.</p>
                 </div>
+                <article class="p-4">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../assets/img/nosotros/nosotros3.webp" class="d-block w-100" alt="Fotos Nosotros Herramientas de Costura 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../assets/img/nosotros/nosotros4.webp" class="d-block w-100" alt="Fotos Nosotros Taller Conjuro">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../assets/img/nosotros/nosotros1.webp" class="d-block w-100" alt="Fotos Nosotros Herramientas de Costura">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../assets/img/nosotros/nosotros2.webp" class="d-block w-100" alt="Fotos Nosotros Herramientas de Costura 2">
+                                </div>
+                            </div>
+                        </div>
+                </article>
             </div>
         </main>
         <!--FOOTER-->
@@ -139,7 +144,7 @@
                 </div>
             </div>
         </footer>
-    <script src="js/bootstrap.bundle.min.js">
+    <script src="../js/bootstrap.bundle.min.js">
     </script>
     <script src="../js/wow.min.js"></script>
     </body>
